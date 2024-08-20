@@ -6,17 +6,27 @@ body {
     color: #333;
 }
 
+/* Hero Section */
 #hero {
-    background-image: url('background-image.jpg'); /* Replace with a suitable background image */
+    background-image: url('background-image.jpg'); /* Replace with your background image */
     background-size: cover;
     background-position: center;
     color: white;
-    padding: 100px 20px;
+    padding: 150px 20px;
     text-align: center;
+    position: relative;
+}
+
+.hero-content {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 30px;
+    border-radius: 10px;
 }
 
 .hero-content h1 {
-    font-size: 2.5rem;
+    font-size: 3rem;
     margin-bottom: 10px;
 }
 
@@ -48,6 +58,7 @@ body {
     font-size: 1rem;
 }
 
+/* Education Section */
 #education {
     background-color: #fff;
     padding: 50px 20px;
@@ -55,7 +66,7 @@ body {
 }
 
 #education h2 {
-    font-size: 2rem;
+    font-size: 2.5rem;
     margin-bottom: 30px;
 }
 
@@ -68,11 +79,17 @@ body {
     border-radius: 10px;
     margin-bottom: 20px;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: 20px auto;
 }
 
 .education-item img {
     max-width: 100px;
     margin-right: 20px;
+}
+
+.education-details {
+    text-align: left;
 }
 
 .education-item h3 {
@@ -82,8 +99,10 @@ body {
 
 .education-item p {
     margin: 5px 0;
+    font-size: 1rem;
 }
 
+/* Footer */
 footer {
     background-color: #333;
     color: white;
