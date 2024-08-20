@@ -84,7 +84,7 @@ body {
 .education-item {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center; /* Center content horizontally */
     padding: 20px;
     background-color: #f9f9f9;
     border-radius: 10px;
@@ -99,13 +99,9 @@ body {
     margin-right: 20px;
 }
 
-.flag-icon {
-    max-width: 50px;
-    margin-left: 20px;
-}
-
 .education-details {
-    text-align: left;
+    text-align: center; /* Center text within the education details */
+    flex-grow: 1;
 }
 
 .education-item h3 {
@@ -119,6 +115,16 @@ body {
     margin: 5px 0;
     font-size: 1rem;
     color: #555;
+}
+
+.duration {
+    font-size: 1rem;
+    color: #333;
+    text-align: right;
+    padding-left: 20px;
+    font-weight: bold;
+    white-space: nowrap;
+    align-self: center;
 }
 
 /* Footer */
