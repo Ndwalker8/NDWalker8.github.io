@@ -20,28 +20,25 @@ body {
 .hero-content {
     max-width: 800px;
     margin: 0 auto;
-    background-color: rgba(0, 0, 0, 0.7); /* Dark overlay to improve text visibility */
+    background-color: rgba(0, 0, 0, 0.7);
     padding: 40px;
     border-radius: 10px;
 }
 
 .hero-content h1 {
-    font-size: 3rem;
+    font-size: 2.5rem;
     margin-bottom: 10px;
     font-family: 'Helvetica Neue', sans-serif;
-    color: white; /* Ensure the text is white */
 }
 
 .hero-content h2 {
     font-size: 2rem;
     margin-bottom: 5px;
-    color: white; /* Ensure the text is white */
 }
 
 .hero-content p {
     font-size: 1.2rem;
     margin-bottom: 20px;
-    color: white; /* Ensure the text is white */
 }
 
 .social-links img {
@@ -49,11 +46,16 @@ body {
     margin: 0 10px;
 }
 
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
 .buttons .btn {
-    display: inline-block;
-    background-color: #5a67d8;
+    background-color: #333;
     color: white;
-    padding: 12px 24px;
+    padding: 10px 20px;
     margin: 10px;
     border-radius: 25px;
     text-decoration: none;
@@ -62,7 +64,7 @@ body {
 }
 
 .buttons .btn:hover {
-    background-color: #434190;
+    background-color: #555;
 }
 
 /* Education Section */
@@ -76,13 +78,13 @@ body {
     font-size: 2.5rem;
     margin-bottom: 30px;
     font-family: 'Helvetica Neue', sans-serif;
-    color: #333; /* Darker color for the text */
+    color: #333;
 }
 
 .education-item {
     display: flex;
     align-items: center;
-    justify-content: start;
+    justify-content: space-between;
     padding: 20px;
     background-color: #f9f9f9;
     border-radius: 10px;
@@ -95,6 +97,11 @@ body {
 .education-item img {
     max-width: 100px;
     margin-right: 20px;
+}
+
+.flag-icon {
+    max-width: 50px;
+    margin-left: 20px;
 }
 
 .education-details {
@@ -111,7 +118,7 @@ body {
 .education-item p {
     margin: 5px 0;
     font-size: 1rem;
-    color: #555; /* Slightly darker text */
+    color: #555;
 }
 
 /* Footer */
