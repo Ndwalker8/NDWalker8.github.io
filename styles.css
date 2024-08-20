@@ -157,6 +157,13 @@ body {
     text-align: center;
     width: 200px;
     margin-bottom: 20px;
+    text-decoration: none; /* Remove underline */
+    color: #333; /* Ensure the text color is correct */
+    transition: transform 0.2s ease-in-out;
+}
+
+.project-item:hover {
+    transform: scale(1.05); /* Slightly enlarge the project item on hover */
 }
 
 .project-item img {
