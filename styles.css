@@ -6,68 +6,7 @@ body {
     color: #333;
 }
 
-/* Hero Section */
-#hero {
-    background-image: url('background-image.jpg'); /* Replace with your background image */
-    background-size: cover;
-    background-position: center;
-    color: white;
-    padding: 150px 20px;
-    text-align: center;
-    position: relative;
-}
-
-.hero-content {
-    max-width: 800px;
-    margin: 0 auto;
-    background-color: rgba(0, 0, 0, 0.7);
-    padding: 40px;
-    border-radius: 10px;
-}
-
-.hero-content h1 {
-    font-size: 2.5rem;
-    margin-bottom: 10px;
-    font-family: 'Helvetica Neue', sans-serif;
-}
-
-.hero-content h2 {
-    font-size: 2rem;
-    margin-bottom: 5px;
-}
-
-.hero-content p {
-    font-size: 1.2rem;
-    margin-bottom: 20px;
-}
-
-.social-links img {
-    width: 30px;
-    margin: 0 10px;
-}
-
-.buttons {
-    display: flex;
-    justify-content: center;
-    gap: 10px;
-}
-
-.buttons .btn {
-    background-color: #333;
-    color: white;
-    padding: 10px 20px;
-    margin: 10px;
-    border-radius: 25px;
-    text-decoration: none;
-    font-size: 1rem;
-    font-family: 'Helvetica Neue', sans-serif;
-}
-
-.buttons .btn:hover {
-    background-color: #555;
-}
-
-/* Education Section */
+/* Education and Experience Section */
 #education {
     background-color: #fff;
     padding: 50px 20px;
@@ -99,13 +38,9 @@ body {
     margin-right: 20px;
 }
 
-.flag-icon {
-    max-width: 50px;
-    margin-left: 20px;
-}
-
 .education-details {
     text-align: left;
+    flex-grow: 1;
 }
 
 .education-item h3 {
@@ -119,6 +54,15 @@ body {
     margin: 5px 0;
     font-size: 1rem;
     color: #555;
+}
+
+.duration {
+    font-size: 1rem;
+    color: #333;
+    text-align: right;
+    padding-left: 20px;
+    font-weight: bold;
+    white-space: nowrap;
 }
 
 /* Footer */
