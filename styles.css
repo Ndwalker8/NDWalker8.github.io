@@ -72,6 +72,7 @@ body {
     background-color: #fff;
     padding: 50px 20px;
     text-align: center;
+    position: relative;
 }
 
 #education h2 {
