@@ -1,14 +1,13 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    font-family: 'Arial', sans-serif;
+    background-color: #0f172a;
+    color: #e2e8f0;
     margin: 0;
     padding: 0;
-    text-align: center;
 }
 
 header {
-    background-color: #003366;
-    color: white;
+    background-color: #1e293b;
     padding: 20px 0;
 }
 
@@ -19,59 +18,101 @@ header nav {
     padding: 0 50px;
 }
 
+header nav h1 {
+    color: #e2e8f0;
+    font-size: 24px;
+}
+
 header nav ul {
     list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
 header nav ul li {
     display: inline;
-    margin: 0 15px;
+    margin-left: 20px;
 }
 
 header nav ul li a {
-    color: white;
+    color: #e2e8f0;
     text-decoration: none;
+    font-weight: bold;
 }
 
-.profile {
-    background-color: #005bb5;
-    color: white;
+#hero {
+    background-color: #1e293b;
     padding: 50px 0;
-    margin-top: 20px;
+    text-align: center;
 }
 
-.profile img {
+#hero .hero-content {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#hero img {
     border-radius: 50%;
     width: 150px;
     height: 150px;
 }
 
-.buttons {
-    margin: 20px 0;
+#hero h2 {
+    color: #e2e8f0;
+    font-size: 36px;
+    margin: 20px 0 10px;
 }
 
-.buttons .button {
-    background-color: #003366;
-    color: white;
-    padding: 15px 25px;
-    text-decoration: none;
-    margin: 10px;
-    display: inline-block;
-    border-radius: 5px;
-    font-weight: bold;
+#hero p {
+    color: #cbd5e1;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+#works {
+    background-color: #0f172a;
+    padding: 50px 0;
+    text-align: center;
+}
+
+#works h2 {
+    color: #e2e8f0;
+    font-size: 32px;
+    margin-bottom: 40px;
+}
+
+.works-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 0 50px;
+}
+
+.work-item {
+    background-color: #1e293b;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: left;
+}
+
+.work-item img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.work-item h3 {
+    color: #e2e8f0;
+    margin: 15px 0 10px;
+}
+
+.work-item p {
+    color: #cbd5e1;
+    font-size: 16px;
 }
 
 footer {
-    background-color: #003366;
-    color: white;
+    background-color: #1e293b;
+    color: #e2e8f0;
+    text-align: center;
     padding: 20px 0;
-}
-
-footer .linkedin-button img {
-    width: 30px;
-    height: 30px;
-}
-
-footer p {
-    margin: 10px 0 0;
 }
