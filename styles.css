@@ -7,16 +7,7 @@ body {
 }
 
 
-/* Hero Section */
-#hero {
-    background-image: url('PAR.jpeg'); /* Replace with your background image */
-    background-size: cover;
-    background-position: center top; /* Start with the background positioned at the top */
-    color: white;
-    padding: 150px 20px;
-    text-align: center;
-    position: relative;
-}
+
 
 .parallax {
     background-image: url('PAR.jpeg'); /* Ensure this path is correct */
