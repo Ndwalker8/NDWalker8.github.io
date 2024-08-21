@@ -266,14 +266,14 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    max-width: 60%; /* Adjust this percentage to change the box's length */
+    max-width: 40%; /* Adjust this percentage to change the box's length */
     margin: 0 auto;
     border: 2px solid #e0e0e0;
 }
 
 .skills-box img {
-    max-width: 10%; /* Adjust this value as needed for the size of logos */
+    max-width: 5%; /* Adjust this value as needed for the size of logos */
     height: auto;
     display: block;
-    margin: 0 5px; /* Added margin between logos */
+    margin: 0 4px; /* Added margin between logos */
 }
