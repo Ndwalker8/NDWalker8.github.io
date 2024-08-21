@@ -78,6 +78,7 @@ body {
     height: 500px; /* Adjust height as needed */
     background-attachment: fixed;
     background-position: center;
+    background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
