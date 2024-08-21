@@ -184,26 +184,12 @@ body {
     font-size: 1rem;
     color: #333;
     font-family: 'Times New Roman', serif;
-}
-
-#extra-curricular {
-    background-color: #fff;
-    padding: 50px 20px;
-    text-align: center;
-}
-
-#extra-curricular h2 {
-    font-size: 2.5rem;
-    margin-bottom: 30px;
-    font-family: 'Times New Roman', serif;
-    color: #333;
-}
 
 .extra-curricular-container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    gap: 20px; /* Add some space between the columns */
+    justify-content: center; /* Center the boxes horizontally */
+    gap: 20px; /* Add space between the boxes */
 }
 
 .extra-curricular-item {
@@ -211,42 +197,16 @@ body {
     border-radius: 10px;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
     padding: 10px;
-    width: calc(50% - 20px); /* Adjust the width to include the gap */
+    width: calc(45% - 20px); /* Adjust the width so two boxes fit in a row */
     text-align: left;
     display: flex;
     align-items: center;
     margin-bottom: 20px;
 }
 
-.extra-curricular-item.alternate {
-    flex-direction: row-reverse;
-}
-
 .extra-curricular-item img {
     max-width: 60px;
     margin-right: 15px;
-    border-radius: 50%; /* This gives the image a round appearance */
-}
-
-.extra-curricular-item.alternate img {
-    margin-right: 0;
-    margin-left: 15px;
-}
-
-.extra-curricular-details {
-    text-align: left;
-    font-family: 'Times New Roman', serif;
-}
-
-.extra-curricular-details h3 {
-    margin: 0;
-    font-size: 1.2rem;
-    font-weight: bold;
-}
-
-.extra-curricular-details p {
-    margin: 5px 0;
-    font-size: 1rem;
 }
 
 
