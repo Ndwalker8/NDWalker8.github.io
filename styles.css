@@ -103,7 +103,7 @@ body {
 .education-item img {
     max-width: 100px;
     margin-right: auto;
-    margin-left: 150px; /* Adjust this value as needed to position the images */
+    margin-left: 1250px; /* Adjust this value as needed to position the images */
 }
 
 .education-details {
