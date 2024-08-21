@@ -281,8 +281,8 @@ body {
 }
 
 .skills-box img {
-    max-width: 150px; /* Adjust this value as needed for the size of logos */
+    max-width: 200px; /* Adjust this value as needed for the size of logos */
     height: auto;
     display: block;
-    margin: 0 4px; /* Added margin between logos */
+    margin: 0 3px; /* Added margin between logos */
 }
