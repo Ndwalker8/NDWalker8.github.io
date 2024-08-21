@@ -224,7 +224,7 @@ body {
     padding: 20px;
     width: 20%; /* Adjust to two columns */
     min-width: 200px; /* Ensures the boxes don’t get too small on small screens */
-    text-align: left;
+    text-align: center;
     display: flex;
     align-items: center;
     margin-bottom: 20px;
