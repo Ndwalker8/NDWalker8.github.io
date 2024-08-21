@@ -217,23 +217,28 @@ body {
     color: #333;
 }
 
+/* Container for the technical software experience section */
 .technical-software-container {
     display: flex;
-    justify-content: center;
-    gap: 20px;
-    flex-wrap: nowrap; /* Ensure all items stay on one line */
+    justify-content: space-between; /* Adjusts the spacing between the logos */
+    flex-wrap: nowrap; /* Ensures all items stay on one line */
     align-items: center; /* Vertically center the items */
     padding: 20px;
     background-color: #f9f9f9;
     border-radius: 10px;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
     margin-bottom: 20px;
+    max-width: 90%; /* Adjust the width of the container */
+    margin: 20px auto; /* Center the container horizontally */
 }
 
+/* Ensures that the logos don't overflow the container */
+.technical-software-container img {
+    max-width: 100px; /* Adjust this value as needed */
+    height: auto;
+    margin: 0 15px; /* Adjusts the space around each logo */
+}
 
-.software-container img {
-    max-width: 120px;
-    margin: 10px;
 }
 
 
