@@ -275,5 +275,5 @@ body {
     max-width: 10%; /* Adjust this value as needed for the size of logos */
     height: auto;
     display: block;
-    margin: 0 10px; /* Added margin between logos */
+    margin: 0 5px; /* Added margin between logos */
 }
