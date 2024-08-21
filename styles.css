@@ -19,14 +19,14 @@ body {
 }
 
 .parallax {
-    background-image: url('your-image.jpg'); /* Replace with your actual image */
-    height: 500px; /* Adjust the height as needed */
-    background-attachment: scroll; /* Ensure the image moves with the scroll */
+    background-image: url('AEB2.webp'); /* Ensure this path is correct */
+    height: 500px; /* Adjust as needed */
+    background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-}
-
+    position: relative;
+    z-index: -1; /* Ensure the image is behind your content */
 
 #hero {
     background-attachment: scroll; /* Ensure the background scrolls with the content */
