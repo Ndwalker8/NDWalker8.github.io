@@ -18,6 +18,15 @@ body {
     position: relative;
 }
 
+/* Parallax scrolling effect */
+body {
+    height: 2000px; /* Increase height to ensure scrolling */
+}
+
+#hero {
+    background-attachment: scroll; /* Ensure the background scrolls with the content */
+}
+
 .hero-content {
     max-width: 800px;
     margin: 0 auto;
