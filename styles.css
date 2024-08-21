@@ -28,6 +28,8 @@ body {
     position: relative;
     z-index: -1; /* Ensure the image is behind your content */
 
+}
+
 #hero {
     background-attachment: scroll; /* Ensure the background scrolls with the content */
 }
