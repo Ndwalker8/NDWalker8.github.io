@@ -260,15 +260,15 @@ body {
 
 .skills-box {
     background-color: #f9f9f9;
-    border-radius: 25px; /* Adjusted border radius for a softer look */
+    border-radius: 25px; 
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-    padding: 10px 20px; /* Added padding to create space around the logos */
+    padding: 20px 30px; 
     display: flex;
     justify-content: space-around;
     align-items: center;
-    width: fit-content; /* Ensures the box fits around the content */
+    max-width: 80%; /* Adjust this percentage to change the box's length */
     margin: 0 auto;
-    border: 2px solid #e0e0e0; /* Optional: Add a light border around the box */
+    border: 2px solid #e0e0e0;
 }
 
 .skills-box img {
