@@ -188,6 +188,20 @@ body {
     font-family: 'Times New Roman', serif;
 }
 
+/* Remove the purple stripe */
+#projects::after {
+    content: "";
+    display: block;
+    height: 2px;
+    background-color: transparent; /* Change or remove the color */
+    margin: 20px 0;
+}
+
+
+
+
+
+
 /* Technical Software Experience Section */
 #technical-software {
     background-color: #fff;
