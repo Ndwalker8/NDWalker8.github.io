@@ -7,47 +7,65 @@ body {
     color: #333;
 }
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nicholas Walker - Aerospace Engineer Portfolio</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <!-- Hero Section -->
-    <section id="hero">
-        <div class="hero-content">
-            <h1>Aerospace Engineering Portfolio</h1>
-            <h2>Nicholas Walker</h2>
-            <p>Senior Aerospace and Mechanical Engineer</p>
-            <p>Systems | Project Management | Design</p>
-            <div class="social-links">
-                <a href="mailto:ndwalker8@gmail.com"><img src="Gmail_Logo.webp" alt="Gmail"></a>
-                <a href="https://www.linkedin.com/in/nicholaswalker8"><img src="LinkedIn_Logo.png" alt="LinkedIn"></a>
-                <a href="#"><img src="facebook.png" alt="Facebook"></a>
-            </div>
-            <div class="buttons">
-                <a href="N V34.pdf" target="_blank" class="btn">Resume</a>
-                <a href="#projects" class="btn">Key Projects</a>
-                <a href="#" class="btn">About Me</a>
-            </div>
-        </div>
-    </section>
+/* Hero Section */
+#hero {
+    background-image: url('AEB.jpg'); /* Background image for the hero section */
+    background-position: center top; /* Position the background at the top */
+    background-size: cover;
+    color: white;
+    padding: 150px 20px;
+    text-align: center;
+    position: relative;
+}
 
+.hero-content {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 40px;
+    border-radius: 10px;
+    font-family: 'Times New Roman', serif;
+}
 
-/* Parallax Section */
+.hero-content h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    font-family: 'Times New Roman', serif;
+}
+
+/* Other Sections Styling */
+section {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    font-family: 'Times New Roman', serif;
+    color: #333;
+}
+
+/* Parallax Section - Moved Up */
 .parallax {
-    background-image: url('AEB.jpg'); /* Parallax image */
-    height: 500px; /* Adjust as needed */
+    background-image: url('AEB.jpg'); /* The image you want to display */
+    height: 500px; /* Adjust height as needed */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
     z-index: -1; /* Ensure the image is behind your content */
+    margin-top: -150px; /* This value adjusts the image's starting point */
 }
+
+/* Remove unwanted space after the parallax section */
+#education, #experience, #projects {
+    margin-top: -150px;
+}
+
+
+
 
 /* Education and Experience Section */
 #education {
