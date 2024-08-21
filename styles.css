@@ -249,7 +249,6 @@ body {
     background-color: #fff;
     padding: 50px 20px;
     text-align: center;
-    margin-top: 50px;
 }
 
 .technical-skills-section h2 {
@@ -261,9 +260,9 @@ body {
 
 .box-container {
     display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
+    justify-content: center;
     gap: 20px;
+    flex-wrap: nowrap; /* Prevent wrapping to keep items in one row */
 }
 
 .software-item {
@@ -272,16 +271,6 @@ body {
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
     padding: 10px;
     text-align: center;
-    width: 150px;
-    height: 100px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    width: 150px; /* Adjust width as needed */
+    margin-bottom: 20px;
 }
-
-.software-item img {
-    max-width: 100%;
-    max-height: 60px;
-}
-
-
