@@ -266,7 +266,7 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    max-width: 80%; /* Adjust this percentage to change the box's length */
+    max-width: 60%; /* Adjust this percentage to change the box's length */
     margin: 0 auto;
     border: 2px solid #e0e0e0;
 }
