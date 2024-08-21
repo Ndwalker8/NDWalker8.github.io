@@ -8,13 +8,17 @@ body {
 
 /* Hero Section */
 #hero {
-    background-image: url('rpi_background.gif'); /* Replace with your background image */
+    background-image: url('AEB2.jpeg'); /* Replace with your background image */
     background-size: cover;
+    background-attachment: scroll;
+    background-position: top;
     background-position: center;
     color: white;
     padding: 150px 20px;
     text-align: center;
     position: relative;
+
+
 }
 
 .hero-content {
@@ -72,19 +76,7 @@ body {
 
 
 
-/* Parallax Section - Moved Up */
-.parallax {
-    background-image: url('AEB.jpg'); /* The image you want to display */
-    height: 500px; /* Adjust height as needed */
-    background-attachment: fixed;
-    background-position: center;
-    background-position: top;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    z-index: -1; /* Ensure the image is behind your content */
-    margin-top: -150px; /* This value adjusts the image's starting point */
-}
+
 
 /* Remove unwanted space after the parallax section */
 #education, #experience, #projects {
