@@ -11,6 +11,7 @@ body {
     background-image: url('HDB.jpeg'); /* Replace with your background image */
     background-size: cover;
     background-position: center;
+    background-attachment: fixed;
     color: white;
     padding: 150px 20px;
     text-align: center;
