@@ -8,7 +8,7 @@ body {
 
 /* Hero Section */
 #hero {
-    background-image: url('AEB2.jpeg'); /* Replace with your background image */
+    background-image: url('AEB2.webp'); /* Replace with your background image */
     background-size: cover;
     background-position: center;
     color: white;
@@ -185,6 +185,63 @@ body {
     color: #333;
     font-family: 'Times New Roman', serif;
 }
+
+/* Extra-Curricular Section */
+#extra-curricular {
+    background-color: #fff;
+    padding: 50px 20px;
+    text-align: center;
+    position: relative;
+    margin-top: 50px; /* Adjust as needed */
+}
+
+#extra-curricular h2 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    font-family: 'Times New Roman', serif;
+    color: #333;
+}
+
+.extra-curricular-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.extra-curricular-item {
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    flex-basis: 45%; /* Adjust the size of each item */
+    max-width: 45%; /* Ensure the items don’t exceed this width */
+    text-align: left;
+}
+
+.extra-curricular-item img {
+    max-width: 80px; /* Adjust as needed */
+    margin-right: 20px;
+}
+
+.extra-curricular-details {
+    text-align: left;
+}
+
+.extra-curricular-item h3 {
+    margin: 0;
+    font-size: 1.5rem;
+    font-family: 'Times New Roman', serif;
+}
+
+.extra-curricular-item p {
+    margin: 5px 0;
+    font-size: 1rem;
+    font-family: 'Times New Roman', serif;
+    color: #555;
+}
+
+
 
 /* Container for the technical software experience section */
 #technical-software {
