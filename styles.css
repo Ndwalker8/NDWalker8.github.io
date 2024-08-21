@@ -1,16 +1,16 @@
- font-family: 'Times New Roman', serif;
+body {
+    font-family: 'Times New Roman', serif;
     margin: 0;
     padding: 0;
-    background-color: #EDE8F5;
+    background-color: #0FA3B1;
     color: #333;
 }
 
 /* Hero Section */
 #hero {
-    background-image: url('6KG.jpeg'); /* Replace with your background image */
+    background-image: url('rpi_background.gif'); /* Replace with your background image */
     background-size: cover;
     background-position: center;
-    background-attachment: fixed;
     color: white;
     padding: 150px 20px;
     text-align: center;
@@ -70,7 +70,7 @@
     background-color: #555;
 }
 
-/* Education Section */
+/* Education and Experience Section */
 #education {
     background-color: #fff;
     padding: 50px 20px;
@@ -101,7 +101,7 @@
 
 .education-item img {
     max-width: 100px;
-    margin-right: 100px;
+    margin-right: 40px;
 }
 
 .education-details {
