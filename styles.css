@@ -262,7 +262,7 @@ body {
     background-color: #f9f9f9;
     border-radius: 25px; /* Adjusted border radius for a softer look */
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-    padding: 20px 30px; /* Added padding to create space around the logos */
+    padding: 10px 20px; /* Added padding to create space around the logos */
     display: flex;
     justify-content: space-around;
     align-items: center;
