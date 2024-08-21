@@ -7,6 +7,34 @@ body {
     color: #333;
 }
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nicholas Walker - Aerospace Engineer Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Hero Section -->
+    <section id="hero">
+        <div class="hero-content">
+            <h1>Aerospace Engineering Portfolio</h1>
+            <h2>Nicholas Walker</h2>
+            <p>Senior Aerospace and Mechanical Engineer</p>
+            <p>Systems | Project Management | Design</p>
+            <div class="social-links">
+                <a href="mailto:ndwalker8@gmail.com"><img src="Gmail_Logo.webp" alt="Gmail"></a>
+                <a href="https://www.linkedin.com/in/nicholaswalker8"><img src="LinkedIn_Logo.png" alt="LinkedIn"></a>
+                <a href="#"><img src="facebook.png" alt="Facebook"></a>
+            </div>
+            <div class="buttons">
+                <a href="N V34.pdf" target="_blank" class="btn">Resume</a>
+                <a href="#projects" class="btn">Key Projects</a>
+                <a href="#" class="btn">About Me</a>
+            </div>
+        </div>
+    </section>
 
 
 /* Parallax Section */
@@ -19,62 +47,6 @@ body {
     background-size: cover;
     position: relative;
     z-index: -1; /* Ensure the image is behind your content */
-}
-#hero {
-    background-attachment: scroll; /* Ensure the background scrolls with the content */
-}
-
-.hero-content {
-    max-width: 800px;
-    margin: 0 auto;
-    background-color: rgba(0, 0, 0, 0.7);
-    padding: 40px;
-    border-radius: 10px;
-    font-family: 'Times New Roman', serif;
-}
-
-.hero-content h1 {
-    font-size: 2.5rem;
-    margin-bottom: 10px;
-    font-family: 'Times New Roman', serif;
-}
-
-.hero-content h2 {
-    font-size: 2rem;
-    margin-bottom: 5px;
-    font-family: 'Times New Roman', serif;
-}
-
-.hero-content p {
-    font-size: 1.2rem;
-    margin-bottom: 20px;
-    font-family: 'Times New Roman', serif;
-}
-
-.social-links img {
-    width: 30px;
-    margin: 0 10px;
-}
-
-.buttons {
-    display: flex;
-    justify-content: center;
-    gap: 10px;
-}
-
-.buttons .btn {
-    background-color: #333;
-    color: white;
-    padding: 10px 20px;
-    margin: 10px;
-    border-radius: 25px;
-    text-decoration: none;
-    font-size: 1rem;
-    font-family: 'Times New Roman', serif;
-}
-
-.buttons .btn:hover {
-    background-color: #555;
 }
 
 /* Education and Experience Section */
