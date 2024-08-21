@@ -186,13 +186,10 @@ body {
     font-family: 'Times New Roman', serif;
 }
 
-/* Extra-Curricular Section */
 #extra-curricular {
     background-color: #fff;
     padding: 50px 20px;
     text-align: center;
-    position: relative;
-    margin-top: 50px; /* Adjust as needed */
 }
 
 #extra-curricular h2 {
@@ -204,7 +201,7 @@ body {
 
 .extra-curricular-container {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     flex-wrap: wrap;
     gap: 20px;
 }
@@ -212,34 +209,35 @@ body {
 .extra-curricular-item {
     background-color: #f9f9f9;
     border-radius: 10px;
-    padding: 20px;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-    flex-basis: 45%; /* Adjust the size of each item */
-    max-width: 45%; /* Ensure the items don’t exceed this width */
+    padding: 20px;
+    width: 300px;
     text-align: left;
+    display: flex;
+    align-items: center;
 }
 
 .extra-curricular-item img {
-    max-width: 80px; /* Adjust as needed */
+    max-width: 80px;
     margin-right: 20px;
 }
 
 .extra-curricular-details {
     text-align: left;
-}
-
-.extra-curricular-item h3 {
-    margin: 0;
-    font-size: 1.5rem;
     font-family: 'Times New Roman', serif;
 }
 
-.extra-curricular-item p {
+.extra-curricular-details h3 {
+    margin: 0;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.extra-curricular-details p {
     margin: 5px 0;
     font-size: 1rem;
-    font-family: 'Times New Roman', serif;
-    color: #555;
 }
+
 
 
 
