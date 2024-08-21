@@ -2,34 +2,19 @@ body {
     font-family: 'Times New Roman', serif;
     margin: 0;
     padding: 0;
-    background-image:url('PAR.jpeg');
+    background-color: #0FA3B1;
     color: #333;
 }
 
-
 /* Hero Section */
 #hero {
-    background-position: center top; /* Start with the background positioned at the top */
+    background-image: url('rpi_background.gif'); /* Replace with your background image */
+    background-size: cover;
+    background-position: center;
     color: white;
     padding: 150px 20px;
     text-align: center;
     position: relative;
-}
-
-.parallax {
-    background-image: url('AEB.jpg'); /* Ensure this path is correct */
-    height: 500px; /* Adjust as needed */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    z-index: -1; /* Ensure the image is behind your content */
-
-}
-
-#hero {
-    background-attachment: scroll; /* Ensure the background scrolls with the content */
 }
 
 .hero-content {
@@ -46,6 +31,45 @@ body {
     margin-bottom: 10px;
     font-family: 'Times New Roman', serif;
 }
+
+.hero-content h2 {
+    font-size: 2rem;
+    margin-bottom: 5px;
+    font-family: 'Times New Roman', serif;
+}
+
+.hero-content p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    font-family: 'Times New Roman', serif;
+}
+
+.social-links img {
+    width: 30px;
+    margin: 0 10px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.buttons .btn {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-size: 1rem;
+    font-family: 'Times New Roman', serif;
+}
+
+.buttons .btn:hover {
+    background-color: #555;
+}
+
 
 
 /* Parallax Section - Moved Up */
