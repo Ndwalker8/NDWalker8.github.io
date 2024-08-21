@@ -18,10 +18,15 @@ body {
     position: relative;
 }
 
-/* Parallax scrolling effect */
-body {
-    height: 2000px; /* Increase height to ensure scrolling */
+.parallax {
+    background-image: url('your-image.jpg'); /* Replace with your actual image */
+    height: 500px; /* Adjust the height as needed */
+    background-attachment: scroll; /* Ensure the image moves with the scroll */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
+
 
 #hero {
     background-attachment: scroll; /* Ensure the background scrolls with the content */
@@ -241,7 +246,7 @@ body {
 }
 
 .extra-curricular-details h3 {
-    margin: 0;
+    margin: 20px;
     font-size: 1.2rem;
     font-weight: bold;
     color: #333;
@@ -284,5 +289,5 @@ body {
     max-width: 175px; /* Adjust this value as needed for the size of logos */
     height: auto;
     display: block;
-    margin: 0 3px; /* Added margin between logos */
+    margin: 0 3.5px; /* Added margin between logos */
 }
