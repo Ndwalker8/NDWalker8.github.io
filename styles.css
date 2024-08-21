@@ -7,10 +7,17 @@ body {
 }
 
 
-
+/* Hero Section */
+#hero {
+    background-position: center top; /* Start with the background positioned at the top */
+    color: white;
+    padding: 150px 20px;
+    text-align: center;
+    position: relative;
+}
 
 .parallax {
-    background-image: url('AEB.jpeg'); /* Ensure this path is correct */
+    background-image: url('AEB.jpg'); /* Ensure this path is correct */
     height: 500px; /* Adjust as needed */
     background-attachment: fixed;
     background-position: center;
