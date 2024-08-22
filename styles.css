@@ -281,21 +281,11 @@ body {
 }
 
 .extra-curricular-date {
-    margin-left: auto;
+    text-align: right;
     font-size: 1rem;
     color: #555;
 }
 
-.duration {
-    font-size: 1rem;
-    color: #333;
-    text-align: right;
-    padding-left: 20px;
-    font-weight: bold;
-    white-space: nowrap;
-    align-self: center;
-    font-family: 'Times New Roman', serif;
-}
 
 
 /* Technical Skills Section */
