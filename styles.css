@@ -17,6 +17,8 @@ body {
     padding: 150px 20px;
     text-align: center;
     position: relative;
+    margin-top: -50px; /* Move the image up by reducing the top margin */
+    padding-top: 10px; /* Ensure there’s no extra padding at the top */
 
 }
 
