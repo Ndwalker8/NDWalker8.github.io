@@ -33,7 +33,7 @@ body {
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
-    background-color: #333; /* Adjust the color to your preference */
+    background-image: url('AEB2.webp'); /* Added this line to set the background image */
     border-radius: 15px; /* Adds rounded corners */
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
     text-align: center; /* Centers the content */
