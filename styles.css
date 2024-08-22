@@ -227,13 +227,13 @@ body {
     background-color: #f9f9f9;
     border-radius: 25px;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-    padding: 15px; /* Adjusts the height of box */
-    min-width: 200px; /* Ensures the boxes don’t get too small on small screens */
-    max-width: 400px;
-    margin: 5px auto; /* Reduce the margin between the boxes */
+    padding: 15px;
+    width: 300px; /* Fixed width for all boxes */
+    height: 150px; /* Fixed height for all boxes */
     text-align: center;
     display: flex;
     align-items: center;
+    justify-content: space-between; /* Evenly space the content inside */
     margin-bottom: 20px;
 }
 
