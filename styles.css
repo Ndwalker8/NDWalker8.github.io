@@ -50,7 +50,7 @@ body {
 }
 
 .hero-content h1 {
-    font-size: 2.5rem;
+    font-size: 2rem;
     margin-bottom: 10px;
     font-family: 'Times New Roman', serif;
 }
@@ -179,7 +179,7 @@ body {
 }
 
 #projects h2 {
-    font-size: 3rem;
+    font-size: 2rem;
     margin-bottom: 30px;
     margin-top: 40px; /* Adjust this value as needed */
     font-family: 'Times New Roman', serif;
@@ -231,7 +231,7 @@ body {
 }
 
 #extra-curricular h2 {
-    font-size: 2.5rem;
+    font-size: 2rem;
     margin-bottom: 30px;
     font-family: 'Times New Roman', serif;
     color: #333;
@@ -304,7 +304,7 @@ body {
 }
 
 .technical-skills-section h2 {
-    font-size: 2.5rem;
+    font-size: 2rem;
     margin-bottom: 30px;
     font-family: 'Times New Roman', serif;
     color: #333;
