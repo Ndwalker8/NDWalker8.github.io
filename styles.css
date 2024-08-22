@@ -292,3 +292,86 @@ body {
     display: block;
     margin: 0 3.5px; /* Added margin between logos */
 }
+
+/* About Me Section */
+#about-me {
+    padding: 50px 20px;
+    background-color: #f3f3f3;
+    text-align: left;
+}
+
+.about-me-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.about-me-text {
+    width: 60%;
+    padding-right: 20px;
+    border-right: 2px solid #e0e0e0;
+}
+
+.about-me-text h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    font-family: 'Georgia', serif;
+    color: #333;
+}
+
+.about-me-text p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #555;
+    margin-bottom: 15px;
+    font-family: 'Arial', sans-serif;
+}
+
+.about-me-image {
+    width: 35%;
+    text-align: center;
+}
+
+.about-me-image img {
+    width: 100%;
+    max-width: 200px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.about-me-details h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    font-family: 'Georgia', serif;
+    color: #333;
+}
+
+.about-me-details p {
+    font-size: 1.1rem;
+    color: #555;
+    font-family: 'Arial', sans-serif;
+    margin-bottom: 15px;
+}
+
+.about-me-details img {
+    width: 80%;
+    max-width: 150px;
+    margin: 10px 0;
+}
+
+.affiliations {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.affiliations img {
+    width: 30%;
+    max-width: 80px;
+}
