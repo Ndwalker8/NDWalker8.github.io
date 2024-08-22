@@ -18,7 +18,15 @@ body {
     text-align: center;
     position: relative;
 
+}
 
+.hero-container {
+    background-color: rgba(255, 255, 255, 0.9); /* Adjust opacity as needed */
+    border-radius: 25px;
+    padding: 40px;
+    max-width: 90%;
+    margin: 0 auto;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Same shadow as the About Me section */
 }
 
 .hero-content {
