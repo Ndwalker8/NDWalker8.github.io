@@ -286,6 +286,12 @@ body {
     color: #555;
 }
 
+.spaceflight-society-logo {
+    max-width: 75px; /* Adjust the size as needed */
+    height: auto;
+    margin-right: 10px;
+    border-radius: 5px;
+}
 
 
 /* Technical Skills Section */
