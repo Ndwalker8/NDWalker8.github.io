@@ -8,7 +8,7 @@ body {
 
 /* Hero Section */
 #hero {
-    background-image: url('AEB2.webp'); /* Replace with your background image */
+    background-color: #fff;
     background-size: cover;
     background-attachment: scroll;
     background-position: top;
