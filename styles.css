@@ -220,17 +220,17 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: center; /* Center the content */
-    gap: 10px; /* Add space between the boxes */
+    gap: 5px; /* Reduce space between the boxes */
 }
 
 .extra-curricular-item {
     background-color: #f9f9f9;
     border-radius: 25px;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-    padding: 15px; /*Adsusts the height of box */
+    padding: 15px; /* Adjusts the height of box */
     min-width: 200px; /* Ensures the boxes don’t get too small on small screens */
     max-width: 400px;
-    margin: 10px auto;
+    margin: 5px auto; /* Reduce the margin between the boxes */
     text-align: center;
     display: flex;
     align-items: center;
@@ -245,17 +245,24 @@ body {
 
 .extra-curricular-details {
     font-family: 'Times New Roman', serif;
+    margin-left: 10px; /* Adds space between the text elements */
 }
 
 .extra-curricular-details h3 {
-    margin: 20px;
+    margin: 10px 0; /* Increase the space above and below the heading */
     font-size: 1.2rem;
     font-weight: bold;
     color: #333;
 }
 
 .extra-curricular-details p {
-    margin: 20px 0;
+    margin: 10px 0; /* Increase the space above and below the paragraph */
+    font-size: 1rem;
+    color: #555;
+}
+
+.extra-curricular-date {
+    margin-left: auto;
     font-size: 1rem;
     color: #555;
 }
