@@ -315,9 +315,10 @@ body {
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
     padding: 20px;
     display: flex;
+    width: 2000px; /* Adjust width to balance the content */
+    height: 150px; /* Reduced height to make the boxes less "fat" */
     justify-content: space-between; /* Ensure space is distributed evenly */
     align-items: center;
-    max-width: 65%; /* Set a consistent max-width for better scaling */
     margin: 0 auto;
     border: 2px solid #e0e0e0;
 
