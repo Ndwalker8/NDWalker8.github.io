@@ -317,7 +317,7 @@ body {
     padding: 20px;
     display: flex;
     width: 1200px; /* Adjust width to balance the content */
-    height: 150px; /* Reduced height to make the boxes less "fat" */
+    height: 100px; /* Reduced height to make the boxes less "fat" */
     justify-content: space-between; /* Ensure space is distributed evenly */
     align-items: center;
     margin: 0 auto;
