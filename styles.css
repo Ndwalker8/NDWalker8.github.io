@@ -220,7 +220,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: center; /* Center the content */
-    gap: 5px; /* Reduce space between the boxes */
+    gap: 10px; /* Reduce space between the boxes */
 }
 
 .extra-curricular-item {
@@ -228,7 +228,7 @@ body {
     border-radius: 25px;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
     padding: 15px;
-    width: 300px; /* Fixed width for all boxes */
+    width: 200px; /* Fixed width for all boxes */
     height: 150px; /* Fixed height for all boxes */
     text-align: center;
     display: flex;
