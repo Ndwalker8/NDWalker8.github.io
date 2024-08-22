@@ -287,9 +287,9 @@ body {
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
     padding: 20px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between; /* Ensure space is distributed evenly */
     align-items: center;
-    max-width: 40%; /* Adjust this percentage to change the box's length */
+    max-width: 80%; /* Set a consistent max-width for better scaling */
     margin: 0 auto;
     border: 2px solid #e0e0e0;
 }
