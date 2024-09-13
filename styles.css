@@ -115,7 +115,7 @@ body {
 }
 
 #education h2 {
-    font-size: 2rem;
+    font-size: 2.5rem;
     margin-bottom: 30px; /*was 20*/
     font-family: 'Times New Roman', serif;
     color: #333;
@@ -196,7 +196,7 @@ body {
 }
 
 #projects h2 {
-    font-size: 3rem;
+    font-size: 2.5rem;
     margin-bottom: 30px;
     margin-top: 40px; /* Adjust this value as needed */
     font-family: 'Times New Roman', serif;
@@ -248,7 +248,7 @@ body {
 }
 
 #extra-curricular h2 {
-    font-size: 3rem;
+    font-size: 2.5rem;
     margin-bottom: 40px;
     font-family: 'Times New Roman', serif;
     color: #333;
