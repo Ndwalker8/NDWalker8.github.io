@@ -2,7 +2,7 @@ body {
     font-family: 'Times New Roman', serif;
     margin: 0;
     padding: 0;
-    background-color: #FBE9D0;
+    background-color: #EDE8F5;
     color: #333;
 }
 
@@ -108,7 +108,7 @@ body {
 
 /* Education and Experience Section */
 #education {
-    background-color: #FBE9D0;
+    background-color: #EDE8F5;
     padding: 20px 20px;
     text-align: center;
     position: relative;
@@ -190,7 +190,7 @@ body {
 
 /* Key Projects Section */
 #projects {
-    background-color: #FBE9D0;
+    background-color: #EDE8F5;
     padding: 80px 40px;
     text-align: center;
 }
@@ -242,7 +242,7 @@ body {
 
 /* Extra-Curricular Section */
 #extra-curricular {
-    background-color: #FBE9D0;
+    background-color: #EDE8F5;
     padding: 30px 20px;
     text-align: center;
 }
@@ -315,7 +315,7 @@ body {
 
 /* Technical Skills Section */
 .technical-skills-section {
-    background-color: #fff;
+    background-color: #EDE8F5;
     padding: 50px 20px;
     text-align: center;
 }
