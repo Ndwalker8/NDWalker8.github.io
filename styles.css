@@ -116,7 +116,7 @@ body {
 
 #education h2 {
     font-size: 2rem;
-    margin-bottom: 20px;
+    margin-bottom: 30px; /*was 20*/
     font-family: 'Times New Roman', serif;
     color: #333;
 }
