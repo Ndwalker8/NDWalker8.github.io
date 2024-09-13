@@ -1,14 +1,14 @@
 body {
-    font-family: 'Times New Roman', serif;
+   font-family: 'Inter', serif;;
     margin: 0;
     padding: 0;
-    background-color: #EDE8F5;
+    background-color: #212A31;
     color: #333;
 }
 
 /* Hero Section */ 
 #hero {
-    background-color: #EDE8F5;
+    background-color: #212A31;
     background-size: cover;
     background-attachment: scroll;
     background-position: top;
@@ -55,7 +55,7 @@ body {
 .hero-content h1 {
     font-size: 2rem;
     margin-bottom: 10px;
-    font-family: 'Times New Roman', serif;
+    font-family: 'Inter', serif;
 }
 
 .hero-content h2 {
@@ -108,7 +108,7 @@ body {
 
 /* Education and Experience Section */
 #education {
-    background-color: #EDE8F5;
+    background-color: #212A31;
     padding: 20px 20px;
     text-align: center;
     position: relative;
@@ -190,7 +190,7 @@ body {
 
 /* Key Projects Section */
 #projects {
-    background-color: #EDE8F5;
+    background-color: #212A31;
     padding: 80px 40px;
     text-align: center;
 }
@@ -242,7 +242,7 @@ body {
 
 /* Extra-Curricular Section */
 #extra-curricular {
-    background-color: #EDE8F5;
+    background-color: #212A31;
     padding: 30px 20px;
     text-align: center;
 }
