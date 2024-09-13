@@ -17,30 +17,30 @@ body {
     padding: 150px 20px;
     text-align: center;
     position: relative;
-    margin-top: -50px; /* Move the image up by reducing the top margin */
-    padding-top: 20px; /* Ensure there’s no extra padding at the top */
-
+    margin-top: -50px;
+    padding-top: 20px;
 }
 
 .hero-container {
-    background-color: rgba(255, 255, 255, 0.9); /* Adjust opacity as needed */
+    background-color: rgba(255, 255, 255, 0.9);
     border-radius: 25px;
     padding: 40px;
     max-width: 90%;
     margin: 0 auto;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Same shadow as the About Me section */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .container {
-    background-image: url('AEB3.jpeg'); /* Added this line to set the background image */
-    background-size: cover; /* Ensures the image covers the entire section */
-    background-position: center; /* Centers the background image */
-    padding: 50px 20px; /* Adjusted padding to ensure there’s space around the content */
-    border-radius: 25px; /* Rounded corners for the section */
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Added a subtle shadow */
-    color: #fff; /* Set text color to white for contrast against the background image */
-    border: 2px solid #e0e0e0
+    background-image: url('AEB3.jpeg');
+    background-size: cover;
+    background-position: center;
+    padding: 50px 20px;
+    border-radius: 25px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    color: #fff;
+    border: 2px solid #e0e0e0;
 }
+
 .hero-content {
     max-width: 800px;
     margin: 0 auto;
@@ -94,7 +94,20 @@ body {
     background-color: #555;
 }
 
-
+/* Parallax Effect */
+.parallax {
+    /* Image for parallax */
+    background-image: url('Screenshot 2024-09-13 at 12.51.34 PM.png');
+    
+    /* Full height */
+    height: 500px;
+    
+    /* Parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 
 
