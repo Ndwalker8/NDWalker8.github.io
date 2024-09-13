@@ -96,20 +96,6 @@ body {
     background-color: #555;
 }
 
-/* Parallax Effect */
-.parallax {
-    /* Image for parallax */
-    background-image: url('AEB3.jpeg');
-    
-    /* Full height */
-    height: 400px;
-    
-    /* Parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
 
 
 
@@ -117,7 +103,6 @@ body {
 #education, #experience, #projects {
     margin-top: -100px;
 }
-
 
 
 
@@ -135,6 +120,22 @@ body {
     font-family: 'Times New Roman', serif;
     color: #333;
 }
+
+/* Parallax Effect */
+.parallax {
+    /* Image for parallax */
+    background-image: url('AEB3.jpeg');
+    
+    /* Full height */
+    height: 200px;
+    
+    /* Parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 
 .education-item {
     display: flex;
