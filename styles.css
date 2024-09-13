@@ -1,80 +1,58 @@
+/* General body and font settings */
 body {
-    font-family: 'Times New Roman', serif;
+    font-family: 'Inter', sans-serif;
     margin: 0;
     padding: 0;
     background-color: #EDE8F5;
     color: #333;
 }
 
-/* Hero Section */ 
+/* Hero Section */
 #hero {
     background-color: #EDE8F5;
     background-size: cover;
-    background-attachment: scroll;
-    background-position: top;
-    background-position: center;
     color: white;
     padding: 150px 20px;
     text-align: center;
-    position: relative;
-    margin-top: -50px;
-    padding-top: 20px;
-}
-
-.hero-container {
-    background-color: rgba(255, 255, 255, 0.9);
-    border-radius: 25px;
-    padding: 40px;
-    max-width: 90%;
-    margin: 0 auto;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .container {
-    background-image: url('AEB3.jpeg');
-    background-attachment: fixed; /* Parallax effect */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
     padding: 50px 20px;
     border-radius: 25px;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
     color: #fff;
-    border: 2px solid #e0e0e0;
 }
 
+/* Parallax Effect */
+.parallax {
+    background-image: url('AEB3.jpeg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+}
+
+/* Hero Content */
 .hero-content {
     max-width: 800px;
     margin: 0 auto;
     background-color: rgba(0, 0, 0, 0.7);
     padding: 40px;
     border-radius: 10px;
-    font-family: 'Times New Roman', serif;
 }
 
-.hero-content h1 {
-    font-size: 2rem;
-    margin-bottom: 10px;
-    font-family: 'Times New Roman', serif;
-}
-
-.hero-content h2 {
-    font-size: 2rem;
-    margin-bottom: 5px;
-    font-family: 'Times New Roman', serif;
-}
-
-.hero-content p {
-    font-size: 1.2rem;
+.hero-content h1, .hero-content h2, .hero-content p {
     margin-bottom: 20px;
-    font-family: 'Times New Roman', serif;
 }
 
+/* Social Links */
 .social-links img {
     width: 30px;
     margin: 0 10px;
 }
 
+/* Buttons */
 .buttons {
     display: flex;
     justify-content: center;
@@ -88,278 +66,53 @@ body {
     margin: 10px;
     border-radius: 25px;
     text-decoration: none;
-    font-size: 1rem;
-    font-family: 'Times New Roman', serif;
 }
 
 .buttons .btn:hover {
     background-color: #555;
 }
 
-
-
-
-/* Remove unwanted space after the parallax section */
-#education, #experience, #projects {
-    margin-top: -100px;
-}
-
-
-
-/* Education and Experience Section */
-#education {
+/* Section with consistent styling */
+#education, #projects, #extra-curricular, #about-me {
     background-color: #EDE8F5;
     padding: 20px 20px;
     text-align: center;
-    position: relative;
 }
 
-#education h2 {
+/* Headings for all sections */
+h2 {
     font-size: 2.5rem;
-    margin-bottom: 30px; /*was 20*/
-    font-family: 'Times New Roman', serif;
+    margin-bottom: 30px;
+    font-weight: bold;
     color: #333;
 }
 
-/* Parallax Effect */
-.parallax {
-    /* Image for parallax */
-    background-image: url('AEB3.jpeg');
-    
-    /* Full height */
-    height: 200px;
-    
-    /* Parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-
-.education-item {
-    display: flex;
-    align-items: center;
-    justify-content: center; /* Center content horizontally */
-    padding: 20px;
+/* Common item container for education, projects, and extracurriculars */
+.education-item, .project-item, .extra-curricular-item {
     background-color: #f9f9f9;
     border-radius: 10px;
+    padding: 20px;
     margin-bottom: 20px;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
     max-width: 900px;
-    max-height: 150px;
     margin: 20px auto;
-    font-family: 'Times New Roman', serif;
 }
 
-.education-item img {
+/* For displaying logos or images inside each section */
+.education-item img, .project-item img, .extra-curricular-item img {
     max-width: 100px;
-    margin-right: 30px;
-}
-
-.education-details {
-    text-align: center; /* Center text within the education details */
-    flex-grow: 1;
-    font-family: 'Times New Roman', serif;
-}
-
-.education-item h3 {
-    margin: 0 0 10px 0;
-    font-size: 1.5rem;
-    font-family: 'Times New Roman', serif;
-    color: #333;
-}
-
-.education-item p {
-    margin: 5px 0;
-    font-size: 1rem;
-    color: #555;
-    font-family: 'Times New Roman', serif;
-}
-
-.duration {
-    font-size: 1.5rem;
-    color: #333;
-    text-align: right;
-    padding-left: 20px;
-    font-weight: bold;
-    white-space: nowrap;
-    align-self: center;
-    font-family: 'Times New Roman', serif;
-}
-
-/* Key Projects Section */
-#projects {
-    background-color: #EDE8F5;
-    padding: 80px 40px;
-    text-align: center;
-}
-
-#projects h2 {
-    font-size: 2.5rem;
-    margin-bottom: 30px;
-    margin-top: 40px; /* Adjust this value as needed */
-    font-family: 'Times New Roman', serif;
-    color: #333;
-}
-
-.projects-container {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    flex-wrap: wrap;
-}
-
-.project-item {
-    background-color: #f9f9f9;
-    border-radius: 10px;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-    padding: 20px;
-    text-align: center;
-    width: 200px;
-    margin-bottom: 20px;
-    text-decoration: none; /* Remove underline */
-    color: #333; /* Ensure the text color is correct */
-    transition: transform 0.2s ease-in-out;
-    font-family: 'Times New Roman', serif;
-}
-
-.project-item:hover {
-    transform: scale(1.05); /* Slightly enlarge the project item on hover */
-}
-
-.project-item img {
-    max-width: 100%;
-    border-radius: 10px;
-    margin-bottom: 30px;
-}
-
-.project-item p {
-    font-size: 1rem;
-    color: #333;
-    font-family: 'Times New Roman', serif;
-}
-
-/* Extra-Curricular Section */
-#extra-curricular {
-    background-color: #EDE8F5;
-    padding: 30px 20px;
-    text-align: center;
-}
-
-#extra-curricular h2 {
-    font-size: 2.5rem;
-    margin-bottom: 40px;
-    font-family: 'Times New Roman', serif;
-    color: #333;
-}
-
-.extra-curricular-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center; /* Center the content */
-    gap: 10px; /* Reduce space between the boxes */
-}
-
-.extra-curricular-item {
-    background-color: #f9f9f9;
-    border-radius: 25px;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-    padding: 20px; /* Reduced padding to make the boxes less "fat" */
-    width: 475px; /* Adjust width to balance the content */
-    height: 80px; /* Reduced height to make the boxes less "fat" */
-    text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: space-between; /* Evenly space the content inside */
-    margin-bottom: 20px;
-}
-
-.extra-curricular-item img {
-    max-width: 80px;
-    margin-right: 10px;
-    border-radius: 5px;
-}
-
-.extra-curricular-details {
-    font-family: 'Times New Roman', serif;
-    margin-left: 10px; /* Adds space between the text elements */
-}
-
-.extra-curricular-details h3 {
-    margin: 10px 0; /* Increase the space above and below the heading */
-    font-size: 1rem;
-    font-weight: bold;
-    color: #333;
-}
-
-.extra-curricular-details p {
-    margin: 5px 0; /* Increase the space above and below the paragraph */
-    font-size: 1rem;
-    color: #555;
-}
-
-.extra-curricular-date {
-    text-align: right;
-    font-size: 1rem;
-    color: #555;
-}
-
-.spaceflight-society-logo {
-    max-width: 75px; /* Adjust the size as needed */
-    height: auto;
-    margin-right: 10px;
-    border-radius: 5px;
-}
-
-
-/* Technical Skills Section */
-.technical-skills-section {
-    background-color: #EDE8F5;
-    padding: 50px 20px;
-    text-align: center;
-}
-
-.technical-skills-section h2 {
-    font-size: 2rem;
-    margin-bottom: 30px;
-    font-family: 'Times New Roman', serif;
-    color: #333;
-}
-
-.skills-box {
-    background-color: #f9f9f9;
-    border-radius: 25px; 
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-    padding: 20px;
-    display: flex;
-    width: 1200px; /* Adjust width to balance the content */
-    height: 100px; /* Reduced height to make the boxes less "fat" */
-    justify-content: space-between; /* Ensure space is distributed evenly */
-    align-items: center;
-    margin: 0 auto;
-    border: 2px solid #e0e0e0;
-
-}
-
-.skills-box img {
-    max-width: 175px; /* Adjust this value as needed for the size of logos */
-    height: auto;
-    display: block;
-    margin: 0 3.5px; /* Added margin between logos */
-    bject-fit: contain
+    margin-right: 20px;
 }
 
 /* About Me Section */
 #about-me {
-    background-image: url('AEB2.webp'); /* Added this line to set the background image */
-    background-size: cover; /* Ensures the image covers the entire section */
-    background-position: center; /* Centers the background image */
-    padding: 50px 20px; /* Adjusted padding to ensure there’s space around the content */
-    border-radius: 25px; /* Rounded corners for the section */
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Added a subtle shadow */
-    color: #fff; /* Set text color to white for contrast against the background image */
-
+    background-image: url('AEB2.webp');
+    background-size: cover;
+    background-position: center;
+    padding: 50px 20px;
+    border-radius: 25px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    color: #fff;
 }
 
 .about-me-container {
@@ -380,60 +133,16 @@ body {
     border-right: 2px solid #e0e0e0;
 }
 
-.about-me-text h2 {
-    font-size: 2.5rem;
-    margin-bottom: 20px;
-    font-family: 'Georgia', serif;
-    color: #333;
-}
-
-.about-me-text p {
-    font-size: 1.1rem;
-    line-height: 1.8;
-    color: #555;
-    margin-bottom: 15px;
-    font-family: 'Arial', sans-serif;
-}
-
-.about-me-image {
-    width: 35%;
-    text-align: center;
-}
-
 .about-me-image img {
     width: 100%;
     max-width: 200px;
     border-radius: 10px;
-    margin-bottom: 20px;
 }
 
-.about-me-details h3 {
-    font-size: 1.5rem;
-    margin-bottom: 10px;
-    font-family: 'Georgia', serif;
-    color: #333;
-}
-
-.about-me-details p {
+/* Align and style text across all sections */
+h3, p {
     font-size: 1.1rem;
     color: #555;
-    font-family: 'Arial', sans-serif;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
 }
 
-.about-me-details img {
-    width: 80%;
-    max-width: 150px;
-    margin: 10px 0;
-}
-
-.affiliations {
-    display: flex;
-    justify-content: space-around;
-    margin-top: 20px;
-}
-
-.affiliations img {
-    width: 30%;
-    max-width: 80px;
-}
