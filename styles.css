@@ -134,7 +134,7 @@ body {
 /* Parallax Effect */
 .parallax {
     background-image: url('REN.webp');
-    height: 400px; /* Increased height */
+    height: 300px; /* Increased height */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
