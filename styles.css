@@ -109,11 +109,20 @@ body {
 /* Education and Experience Section */
 #education {
     
-    background-color: #333;
-    padding: 20px 20px;
+    background-image: url('REN,webp');
+    background-attachment: fixed; /* Parallax effect */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px 20px;
+    border-radius: 25px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    color: #F0F0F0;
+    border: 2px solid #e0e0e0;
+    /* padding: 20px 20px;
     text-align: center;
     position: relative;
-
+*/
 }
 
 
