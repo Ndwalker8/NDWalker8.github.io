@@ -121,8 +121,8 @@ body {
     border: 2px solid #e0e0e0;
     text-align: center;
     position: relative;
-    max_width: 800px
-    max_height: 200px
+    max_width: 800px;
+    max_height: 200px;
 
 }
 
