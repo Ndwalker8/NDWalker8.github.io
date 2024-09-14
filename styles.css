@@ -144,7 +144,7 @@ body {
     margin: 0 auto; /* Center the section like the hero */
     border: 2px solid #e0e0e0; /* White border to match the hero section */
     text-align: center;
-    min-height: 200px; /* Control the height to contain the parallax effect */
+    min-height: 100px; /* Control the height to contain the parallax effect */
 }
 
 #education h2 {
