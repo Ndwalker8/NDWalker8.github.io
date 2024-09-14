@@ -99,11 +99,6 @@ body {
 
 
 
-/* Remove unwanted space after the parallax section */
-#education, #experience, #projects {
-    margin-top: -100px;
-}
-
 /* Body settings */
 body {
    font-family: 'Inter', serif;
@@ -120,14 +115,6 @@ body {
     color: #F0F0F0;
 }
 
-/* Body settings */
-body {
-   font-family: 'Inter', serif;
-   margin: 0;
-   padding: 0;
-   background-color: #3F2E3E;
-   color: #F0F0F0;
-}
 
 /* Education Section - Parallax Effect */
 #education h2 {
@@ -160,6 +147,7 @@ body {
     padding: 40px 20px;
     text-align: center;
     position: relative;
+    margin: 0auto;
 }
 
 #education h2 {
@@ -170,13 +158,13 @@ body {
 
 /* Parallax Effect */
 .parallax {
-    background-image: url('AEB3.jpeg');
+    background-image: url('REN.webp');
     height: 400px; /* Increased height */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    margin-bottom: 40px; /* Adds spacing below parallax */
+    margin_bottom: 40px; /* Adds spacing below parallax */
 }
 
 /* Education Item Styling */
