@@ -136,20 +136,29 @@ body {
     color: #F0F0F0;
 }
 
+/* Body settings */
+body {
+   font-family: 'Inter', serif;
+   margin: 0;
+   padding: 0;
+   background-color: #212A31;
+   color: #F0F0F0;
+}
+
 /* Education Section - Parallax Effect */
 #education {
     background-image: url('REN.webp'); /* Use your parallax background image */
     background-attachment: fixed; /* Parallax effect */
-    background-position: center top; /* Adjusts the vertical position */
+    background-position: center;
     background-repeat: no-repeat;
-    background-size: 80% auto; /* Make the image narrower */
-    padding: 80px 20px; /* Increased padding to move content further down */
-    border-radius: 25px;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    background-size: cover;
+    padding: 50px 20px;
+    border-radius: 25px; /* Matches the hero section's rounded corners */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Same shadow as the hero section */
     color: #F0F0F0;
-    max-width: 90%;
-    margin: 0 auto;
-    border: 2px solid #e0e0e0;
+    max-width: 90%; /* Same width as the hero section */
+    margin: 0 auto; /* Center the section like the hero */
+    border: 2px solid #e0e0e0; /* White border to match the hero section */
     text-align: center;
 }
 
@@ -169,8 +178,8 @@ body {
     border-radius: 10px;
     margin-bottom: 20px;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-    max-width: 800px;
-    max-height: 120px;
+    max-width: 600px;
+    max-height: 150px;
     margin: 20px auto;
     font-family: 'Inter', sans-serif;
 }
@@ -206,7 +215,6 @@ body {
     white-space: nowrap;
     align-self: center;
 }
-
 
 
 /* Media query for smaller screens like iPhones */
