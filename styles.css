@@ -99,36 +99,18 @@ body {
 
 
 
-/* Body settings */
 body {
    font-family: 'Inter', serif;
    margin: 0;
    padding: 0;
-   background-color: #212A31;
-   color: #F0F0F0;
+   background-color: #212A31;  /* Set the background color */
+   color: #F0F0F0;  /* Set the default text color */
 }
-
-
-#education h2 {
-    font-size: 2.5rem;
-    margin-bottom: 30px;
-    color: #F0F0F0;
-}
-
-
-/* Education Section - Parallax Effect */
-#education h2 {
-    font-size: 2.5rem;
-    margin-bottom: 30px;
-    color: #F0F0F0;
-}
-
-
 
 /* Education and Experience Section */
 #education {
-    background-color: #333;
-    padding: 20px 20px;
+    background-color: #2E3944; /* Lighter background for the section */
+    padding: 40px 20px;
     text-align: center;
     position: relative;
 }
@@ -136,10 +118,8 @@ body {
 #education h2 {
     font-size: 2.5rem;
     margin-bottom: 30px;
-    color: #333;
+    color: #F0F0F0; /* Consistent light text color */
 }
-
-
 
 /* Education and Experience Section */
 #education {
@@ -150,11 +130,6 @@ body {
     margin: 0auto;
 }
 
-#education h2 {
-    font-size: 2.5rem;
-    margin-bottom: 30px;
-    color: #fff; /* Light text color */
-}
 
 /* Parallax Effect */
 .parallax {
