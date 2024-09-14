@@ -109,7 +109,7 @@ body {
 
 /* Education and Experience Section */
 #education {
-    background-color: #2E3944; /* Lighter background for the section */
+    background-image: url('REN.webp'); /* Lighter background for the section */
     padding: 40px 20px;
     text-align: center;
     position: relative;
