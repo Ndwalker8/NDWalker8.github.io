@@ -130,23 +130,6 @@ body {
 }
 
 /* Education Section - Parallax Effect */
-#education {
-    background-image: url('REN.webp'); /* Use your parallax background image */
-    background-attachment: fixed; /* Parallax effect */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding: 50px 20px;
-    border-radius: 25px; /* Matches the hero section's rounded corners */
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Same shadow as the hero section */
-    color: #F0F0F0;
-    max-width: 70%; /* Same width as the hero section */
-    margin: 0 auto; /* Center the section like the hero */
-    border: 2px solid #e0e0e0; /* White border to match the hero section */
-    text-align: center;
-    min-height: 100px; /* Control the height to contain the parallax effect */
-}
-
 #education h2 {
     font-size: 2.5rem;
     margin-bottom: 30px;
