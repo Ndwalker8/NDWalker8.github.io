@@ -136,15 +136,7 @@ body {
     color: #F0F0F0;
 }
 
-/* Parallax Effect */
-.parallax {
-    background-image: url('REN.webp');
-    height: 150px;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
+
 
 /* Education and Experience Section */
 #education {
@@ -162,7 +154,7 @@ body {
 
 /* Parallax Effect */
 .parallax {
-    background-image: url('AEB3.jpeg');
+    background-image: url('REN.webp');
     height: 200px;
     background-attachment: fixed;
     background-position: center;
