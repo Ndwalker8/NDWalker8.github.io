@@ -133,22 +133,7 @@ body {
 }
 
 
-/* Parallax Effect */
-.parallax {
-    background-image: url('REN.webp');
-    height: 300px; /* Increased height */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding: 50px 20px;
-    border-radius: 25px;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-    color: #F0F0F0;
-    border: 2px solid #e0e0e0;
-    margin_bottom: 40px; /* Adds spacing below parallax */
 
-}
 
 /* Education Item Styling */
 .education-item {
@@ -283,6 +268,26 @@ body {
     color: #F0F0F0;
     font-family: 'Times New Roman', serif;
 }
+
+
+/* Parallax Effect */
+.parallax {
+    background-image: url('REN.webp');
+    height: 300px; /* Increased height */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px 20px;
+    border-radius: 25px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    color: #F0F0F0;
+    border: 2px solid #e0e0e0;
+    margin_bottom: 40px; /* Adds spacing below parallax */
+
+}
+
+
 
 /* Extra-Curricular Section */
 #extra-curricular {
