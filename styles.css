@@ -82,7 +82,7 @@ body {
 }
 
 .buttons .btn {
-    background-color: #9B3922;
+    background-color: #344955;
     color: white;
     padding: 10px 20px;
     margin: 10px;
@@ -93,7 +93,7 @@ body {
 }
 
 .buttons .btn:hover {
-    background-color: #F2613F;
+    background-color: #50727B;
 }
 
 
