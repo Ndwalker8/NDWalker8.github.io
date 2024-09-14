@@ -109,11 +109,6 @@ body {
 
 /* Education and Experience Section */
 #education {
-    background-image: url('REN.webp'); /* Lighter background for the section */
-    background-attachment: fixed; /* Parallax effect */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
     padding: 50px 20px;
     border-radius: 25px;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
@@ -121,8 +116,6 @@ body {
     border: 2px solid #e0e0e0;
     text-align: center;
     position: relative;
-    max_width: 800px;
-    max_height: 200px;
 
 }
 
