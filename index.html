@@ -35,21 +35,6 @@
         <h2>About Me</h2>
         <p>Here's some information about me...</p>
     </section>
-
-    <!-- Add this at the bottom of the page -->
-    <script>
-        // JavaScript for showing the header on scroll
-        window.addEventListener("scroll", function() {
-            var header = document.getElementById("header");
-            if (window.pageYOffset > 100) {
-                header.classList.add("visible");
-            } else {
-                header.classList.remove("visible");
-            }
-        });
-    </script>
-
-</body>
     
 
 
@@ -300,3 +285,15 @@
 
 
 
+ <!-- JavaScript: Add this just before the closing </body> tag -->
+    <script>
+        // JavaScript for showing the header on scroll
+        window.addEventListener("scroll", function() {
+            var header = document.getElementById("header");
+            if (window.pageYOffset > 100) { // If the scroll is more than 100px
+                header.classList.add("visible"); // Add the visible class
+            } else {
+                header.classList.remove("visible"); // Remove the visible class
+            }
+        });
+    </script>
