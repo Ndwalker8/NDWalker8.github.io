@@ -47,7 +47,7 @@ body {
     display: flex;
     gap: 20px;
     flex-grow: 1; /* Allow navbar to take remaining space */
-    margin-left: 10px
+    margin-left: 30px
 }
 
 .navbar-link {
