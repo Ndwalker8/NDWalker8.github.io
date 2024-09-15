@@ -9,21 +9,47 @@
 </head>
 <body>
 
-    <!-- Header Section -->
-    <header class="header">
+  <!-- Header -->
+    <header class="header" id="header">
         <div class="container">
             <div class="title">
                 <img src="logo.png" alt="Logo" width="50">
-                <h1 class="logo">Nicholas Walker</h1>
+                <h1 class="logo">My Website</h1>
             </div>
             <nav class="navbar">
                 <a href="#home" class="navbar-link">Home</a>
                 <a href="#about" class="navbar-link">About</a>
                 <a href="#portfolio" class="navbar-link">Portfolio</a>
-                <a href="#resume" class="btn btn-primary blue">Resume</a>
+                <a href="#resume" class="navbar-link">Resume</a>
             </nav>
         </div>
     </header>
+
+    <!-- Content Sections -->
+    <section class="hero" id="home">
+        <h1>Welcome to My Website</h1>
+        <p>Scroll down to see the header appear.</p>
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Here's some information about me...</p>
+    </section>
+
+    <!-- Add this at the bottom of the page -->
+    <script>
+        // JavaScript for showing the header on scroll
+        window.addEventListener("scroll", function() {
+            var header = document.getElementById("header");
+            if (window.pageYOffset > 100) {
+                header.classList.add("visible");
+            } else {
+                header.classList.remove("visible");
+            }
+        });
+    </script>
+
+</body>
     
 
 
