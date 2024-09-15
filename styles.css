@@ -14,7 +14,8 @@ body {
     left: 0;  /* Ensure it starts from the left */
     width: 100%; /* Full-width header */
     padding: 20px;
-    background-color: rgba(33, 33, 33, 0); /* Fully transparent */    z-index: 1000;
+    background-color: rgba(33, 33, 33, 0); /* Fully transparent */   
+    z-index: 1000;
     display: flex;
     justify-content: space-between;
     align-items: center;
