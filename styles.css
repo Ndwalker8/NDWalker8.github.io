@@ -456,13 +456,12 @@ body {
     font-size: 2rem;
     margin-bottom: 30px;
     font-family: 'Inter', serif;;
-    color: #FF652F;
+    color: #F0F0F0;
 }
 
 .skills-box {
-    background-color: #344955;
+    background-color: #31363F;
     border-radius: 25px; 
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
     padding: 20px;
     display: flex;
     width: 1200px; /* Adjust width to balance the content */
@@ -470,7 +469,6 @@ body {
     justify-content: space-between; /* Ensure space is distributed evenly */
     align-items: center;
     margin: 0 auto;
-    border: 2px solid #e0e0e0;
 
 }
 
