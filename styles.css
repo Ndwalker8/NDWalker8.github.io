@@ -25,7 +25,7 @@ body {
 
 /* Make header visible when scrolling */
 .header.active {
-    background-color: #222831; /* Same solid background when scrolling */
+    background-color: #212A31; /* Same solid background when scrolling */
 }
 
 /* Header Logo and Navigation */
