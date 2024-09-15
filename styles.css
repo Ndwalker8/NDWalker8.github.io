@@ -7,38 +7,30 @@ body {
 }
 
 
-/* Initial Header Styling */
+/* Header Styles */
 .header {
     position: fixed;
-    top: 0;
-    left: 0;
     width: 100%;
-    background-color: rgba(33, 33, 33, 0); /* Initially transparent */
-    padding: 20px;
-    display: none; /* Initially hidden */
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
-    z-index: 1000;
-    transition: background-color 0.3s ease, display 0.3s ease;
+    padding-block: 15px;
+    background-color: rgba(33, 33, 33, 0); /* Fully transparent background */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* Subtle shadow for effect */
+    z-index: 4;
+    transition: background-color 0.25s ease, box-shadow 0.25s ease;
 }
 
-/* Header becomes visible when .visible class is added */
-.header.visible {
-    background-color: rgba(33, 33, 33, 0.9); /* Background on scroll */
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+/* When the header becomes sticky or active after scrolling */
+.header.active {
+    background-color: rgba(33, 33, 33, 0.9); /* Solid background when scrolling */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3); /* Shadow after scrolling */
 }
 
 /* Container for header content */
 .header .container {
-    width: 90%;
-    margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-/* Logo and Navigation */
 .title {
     display: flex;
     align-items: center;
@@ -50,19 +42,19 @@ body {
 
 .navbar {
     display: flex;
+    align-items: center;
     gap: 20px;
 }
 
 .navbar-link {
     color: white;
-    font-size: 1.2rem;
-    text-decoration: none;
+    font-family: var(--ff-barlow);
+    transition: color 0.25s;
 }
 
 .navbar-link:hover {
     color: #ff6f61; /* Change color on hover */
 }
-
 
 
 /* Hero Section */ 
