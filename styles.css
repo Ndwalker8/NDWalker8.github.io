@@ -53,10 +53,10 @@ body {
 
 .title img {
     margin-right: 10px;
-    max-width: 70px; /* Set a maximum width for the logo */
-    max-height: 70px; /* Set a maximum height for the logo */
+    max-width: 50px; /* Set a maximum width for the logo */
+    max-height: 50px; /* Set a maximum height for the logo */
     object-fit: contain; /* Ensure the image keeps its aspect ratio */
-    margin-right: 10px;
+    margin-right: 20px;
     transition: all 0.3s ease; /* Smooth transition for hover effect */
 }
 
