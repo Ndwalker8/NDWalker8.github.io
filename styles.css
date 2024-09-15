@@ -37,13 +37,17 @@ body {
 
 .title img {
     margin-right: 10px;
+    max-width: 50px; /* Set a maximum width for the logo */
+    max-height: 50px; /* Set a maximum height for the logo */
+    object-fit: contain; /* Ensure the image keeps its aspect ratio */
+    margin-right: 10px;
 }
 
 .navbar {
     display: flex;
     gap: 20px;
     flex-grow: 1; /* Allow navbar to take remaining space */
-    justify-content: flex-end; /* Align links to the right */
+    margin-left: 10px
 }
 
 .navbar-link {
