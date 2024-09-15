@@ -7,13 +7,13 @@ body {
 }
 
 
-/* Header Styling - Fully Transparent Initially */
+/* Header Styling - Solid Background Color */
 .header {
     position: fixed;
     top: 0;
     width: 100%;
     padding: 20px;
-    background-color: rgba(33, 33, 33, 0); /* Fully transparent */
+    background-color: #212A31; /* Set solid background for header */
     z-index: 1000;
     display: flex;
     justify-content: space-between;
@@ -24,7 +24,7 @@ body {
 
 /* Make header visible when scrolling */
 .header.active {
-    background-color: rgba(33, 33, 33, 0.9); /* Solid background on scroll */
+    background-color: #212A31; /* Same solid background when scrolling */
 }
 
 /* Header Logo and Navigation */
@@ -51,6 +51,7 @@ body {
 .navbar-link:hover {
     color: #ff6f61; /* Change color on hover */
 }
+
 
 
 
