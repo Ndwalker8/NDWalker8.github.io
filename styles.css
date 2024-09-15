@@ -159,7 +159,7 @@ body {
 
 /* Education and Experience Section */
 #education {
-    padding: 40px 20px;
+    border: 2px solid #e0e0e0;
     text-align: center;
     position: relative;
 }
