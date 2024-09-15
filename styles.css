@@ -1,5 +1,5 @@
 body {
-   font-family: 'Inter', serif;;
+    font-family: 'Inter', serif;;
     margin: 0;
     padding: 0;
     background-color: #212A31;
@@ -106,8 +106,7 @@ body {
     background-color: rgba(0, 0, 0, 0.7);
     padding: 40px;
     border-radius: 10px;
-    font-family: 'Times New Roman', serif;
-}
+    font-family: 'Inter', serif;;}
 
 .hero-content h1 {
     font-size: 2rem;
@@ -118,13 +117,13 @@ body {
 .hero-content h2 {
     font-size: 2rem;
     margin-bottom: 5px;
-    font-family: 'Times New Roman', serif;
+    font-family: 'Inter', serif;;
 }
 
 .hero-content p {
     font-size: 1.5rem;
     margin-bottom: 20px;
-    font-family: 'Times New Roman', serif;
+    font-family: 'Inter', serif;;
 }
 
 .social-links img {
@@ -146,7 +145,7 @@ body {
     border-radius: 25px;
     text-decoration: none;
     font-size: 1rem;
-    font-family: 'Times New Roman', serif;
+    font-family: 'Inter', serif;;
 }
 
 .buttons .btn:hover {
@@ -318,7 +317,7 @@ body {
     font-size: 2.5rem;
     margin-bottom: 30px;
     margin-top: 40px; /* Adjust this value as needed */
-    font-family: 'Times New Roman', serif;
+    font-family: 'Inter', serif;;
     color: #fff;
 }
 
@@ -340,7 +339,7 @@ body {
     text-decoration: none; /* Remove underline */
     color: #F0F0F0; /* Ensure the text color is correct */
     transition: transform 0.2s ease-in-out;
-    font-family: 'Times New Roman', serif;
+    font-family: 'Inter', serif;;
 }
 
 .project-item:hover {
@@ -356,7 +355,7 @@ body {
 .project-item p {
     font-size: 1rem;
     color: #F0F0F0;
-    font-family: 'Times New Roman', serif;
+    font-family: 'Inter', serif;;
 }
 
 
@@ -384,7 +383,7 @@ body {
 #extra-curricular h2 {
     font-size: 2.5rem;
     margin-bottom: 40px;
-    font-family: 'Times New Roman', serif;
+    font-family: 'Inter', serif;;
     color: #F0F0F0;
 }
 
@@ -416,7 +415,7 @@ body {
 }
 
 .extra-curricular-details {
-    font-family: 'Times New Roman', serif;
+    font-family: 'Inter', serif;;
     margin-left: 10px; /* Adds space between the text elements */
 }
 
@@ -456,7 +455,7 @@ body {
 .technical-skills-section h2 {
     font-size: 2rem;
     margin-bottom: 30px;
-    font-family: 'Times New Roman', serif;
+    font-family: 'Inter', serif;;
     color: #FF652F;
 }
 
