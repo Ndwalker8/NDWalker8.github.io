@@ -58,7 +58,6 @@ body {
     object-fit: contain; /* Ensure the image keeps its aspect ratio */
     margin-right: 10px;
     transition: all 0.3s ease; /* Smooth transition for hover effect */
-
 }
 
 
@@ -72,8 +71,7 @@ body {
 .navbar {
     display: flex;
     gap: 20px;
-    flex-grow: 1; /* Allow navbar to margin-left: auto; /* Ensures it pushes the navbar to the right */
-    margin-left: auto; /* Ensures it pushes the navbar to the right */    
+    margin-left: auto; /* Ensures the navbar is pushed to the right */
 }
 
 .navbar-link {
@@ -85,10 +83,6 @@ body {
 .navbar-link:hover {
     color: #ff6f61; /* Change color on hover */
 }
-
-
-
-
 
 /* Hero Section */ 
 #hero {
