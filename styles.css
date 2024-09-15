@@ -41,6 +41,8 @@ body {
 .navbar {
     display: flex;
     gap: 20px;
+    flex-grow: 1; /* Allow navbar to take remaining space */
+    justify-content: flex-end; /* Align links to the right */
 }
 
 .navbar-link {
