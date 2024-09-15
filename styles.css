@@ -354,12 +354,12 @@ body {
 
 .project h3 {
     font-size: 1.5rem;
-    margin-top: 10px;
+    margin-top: 5px;
 }
 
 
 .project-item p {
-    font-size: 1rem;
+    font-size: 0.8rem;
     color: #F0F0F0;
     font-family: 'Inter', sans-serif;
 }
