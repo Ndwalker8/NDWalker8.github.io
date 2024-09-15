@@ -145,7 +145,6 @@ body {
 
 /* Education and Experience Section */
 #education {
-    border: 2px solid #e0e0e0;
     text-align: center;
     position: relative;
 
@@ -163,6 +162,10 @@ body {
     text-align: center;
     position: relative;
 }
+
+#experience {
+    text-align: center;
+    position: relative;
 
 
 #exoerience h2 {
