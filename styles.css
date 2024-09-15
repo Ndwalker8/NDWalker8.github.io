@@ -11,9 +11,10 @@ body {
 .header {
     position: fixed;
     top: 0;
-    width: 100%;
+    left: 0;  /* Ensure it starts from the left */
+    width: 100%; /* Full-width header */
     padding: 20px;
-    background-color: #212A31; /* Set solid background for header */
+    background-color: #212A31; /* Solid background for header */
     z-index: 1000;
     display: flex;
     justify-content: space-between;
@@ -51,8 +52,6 @@ body {
 .navbar-link:hover {
     color: #ff6f61; /* Change color on hover */
 }
-
-
 
 
 /* Hero Section */ 
