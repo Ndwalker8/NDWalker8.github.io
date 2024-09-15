@@ -41,13 +41,24 @@ body {
     max-height: 70px; /* Set a maximum height for the logo */
     object-fit: contain; /* Ensure the image keeps its aspect ratio */
     margin-right: 10px;
+    transition: all 0.3s ease; /* Smooth transition for hover effect */
+
 }
+
+
+/* Logo Glow Effect on Hover */
+.title img:hover {
+    box-shadow: 0 0 15px 5px rgba(255, 255, 255, 0.8); /* White glow effect */
+    transform: scale(1.05); /* Slightly increase the size on hover */
+}
+
 
 .navbar {
     display: flex;
     gap: 20px;
     flex-grow: 1; /* Allow navbar to take remaining space */
     margin-left: 30px
+    justify-content: flex-end; /* Align links to the right */
 }
 
 .navbar-link {
@@ -59,6 +70,84 @@ body {
 .navbar-link:hover {
     color: #ff6f61; /* Change color on hover */
 }
+
+/* Header Styling - Solid Background Color */
+.header {
+    position: fixed;
+    top: 0;
+    left: 0; /* Make sure it starts from the very left */
+    width: 100%; /* Full-width header */
+    padding: 20px;
+    background-color: rgba(33, 33, 33, 0); /* Fully transparent */
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: background-color 0.3s ease;
+}
+
+/* Make header visible when scrolling */
+.header.active {
+    background-color: rgba(33, 33, 33, 0.9); /* Dark solid background */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.4); /* Add more shadow on scroll */
+}
+
+/* Header Logo and Navigation */
+.title {
+    display: flex;
+    align-items: center;
+}
+
+.title img {
+    margin-right: 10px;
+    max-width: 70px; /* Set a maximum width for the logo */
+    max-height: 70px; /* Set a maximum height for the logo */
+    object-fit: contain; /* Ensure the image keeps its aspect ratio */
+    margin-right: 10px;
+    transition: all 0.3s ease; /* Smooth transition for hover effect */
+}
+
+/* Logo Glow Effect on Hover */
+.title img:hover {
+    box-shadow: 0 0 15px 5px rgba(255, 255, 255, 0.8); /* White glow effect */
+    transform: scale(1.05); /* Slightly increase the size on hover */
+}
+
+/* Navbar Styling */
+.navbar {
+    display: flex;
+    gap: 20px;
+    flex-grow: 1; /* Allow navbar to take remaining space */
+    margin-left: 30px;
+    justify-content: flex-end; /* Align links to the right */
+}
+
+/* Navbar Links */
+.navbar-link {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+.navbar-link:hover {
+    color: #ff6f61; /* Change color on hover */
+}
+
+/* Make Resume a Button */
+.navbar-link.resume {
+    padding: 10px 20px;
+    background-color: #ff6f61; /* Button background color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.navbar-link.resume:hover {
+    background-color: #ff3f31; /* Darker hover color */
+}
+
 
 
 /* Hero Section */ 
