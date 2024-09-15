@@ -48,8 +48,8 @@ body {
 
 /* Logo Glow Effect on Hover */
 .title img:hover {
-    box-shadow: 0 0 15px 5px rgba(255, 255, 255, 0.8); /* White glow effect */
-    transform: scale(1.05); /* Slightly increase the size on hover */
+    box-shadow: 0 0 15px 5px rgba(255, 255, 255, 0.8); /* Apply glowing effect to image outline */
+    transform: scale(1.05); /* Slightly enlarge the image on hover */
 }
 
 
