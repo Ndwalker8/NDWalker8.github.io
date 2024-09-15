@@ -1,5 +1,5 @@
 body {
-    font-family: 'Inter', serif;;
+    font-family: 'Inter', sans-serif;;
     margin: 0;
     padding: 0;
     background-color: #212A31;
@@ -339,7 +339,7 @@ body {
     text-decoration: none; /* Remove underline */
     color: #F0F0F0; /* Ensure the text color is correct */
     transition: transform 0.2s ease-in-out;
-    font-family: 'Inter', serif;;
+    font-family: 'Inter', sans-serif;
 }
 
 .project-item:hover {
@@ -355,7 +355,7 @@ body {
 .project-item p {
     font-size: 1rem;
     color: #F0F0F0;
-    font-family: 'Inter', serif;;
+    font-family: 'Inter', sans-serif;
 }
 
 
@@ -383,7 +383,7 @@ body {
 #extra-curricular h2 {
     font-size: 2.5rem;
     margin-bottom: 40px;
-    font-family: 'Inter', serif;;
+    font-family: 'Inter', sans-serif;
     color: #F0F0F0;
 }
 
@@ -415,7 +415,7 @@ body {
 }
 
 .extra-curricular-details {
-    font-family: 'Inter', serif;;
+    font-family: 'Inter', sans-serif;
     margin-left: 10px; /* Adds space between the text elements */
 }
 
@@ -455,7 +455,7 @@ body {
 .technical-skills-section h2 {
     font-size: 2rem;
     margin-bottom: 30px;
-    font-family: 'Inter', serif;;
+    font-family: 'Inter', sans-serif;
     color: #F0F0F0;
 }
 
