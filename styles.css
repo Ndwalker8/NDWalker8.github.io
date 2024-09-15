@@ -190,7 +190,7 @@ body {
 
 /* Make image smaller on smaller screens */
 .education-item img {
-    max-width: 80px; /* Reduce image size */
+    max-width: 100px; /* Reduce image size */
     margin-right: 20px;
 }
 
