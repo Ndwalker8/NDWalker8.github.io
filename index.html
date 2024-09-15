@@ -285,15 +285,14 @@
 
 
 
- <!-- JavaScript: Add this just before the closing </body> tag -->
-    <script>
-        // JavaScript for showing the header on scroll
-        window.addEventListener("scroll", function() {
-            var header = document.getElementById("header");
-            if (window.pageYOffset > 100) { // If the scroll is more than 100px
-                header.classList.add("visible"); // Add the visible class
-            } else {
-                header.classList.remove("visible"); // Remove the visible class
-            }
-        });
-    </script>
+ <script>
+    // JavaScript to add 'active' class on scroll
+    window.addEventListener("scroll", function() {
+        var header = document.getElementById("header");
+        if (window.pageYOffset > 100) {  // Adjust the 100px as needed
+            header.classList.add("active");
+        } else {
+            header.classList.remove("active");
+        }
+    });
+</script>
