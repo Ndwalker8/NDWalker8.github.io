@@ -57,13 +57,13 @@ body {
     max-height: 50px; /* Set a maximum height for the logo */
     object-fit: contain; /* Ensure the image keeps its aspect ratio */
     margin-right: 20px;
-    transition: all 0.3s ease; /* Smooth transition for hover effect */
+    transition: box-shadow 0.3s ease, transform 0.3s ease; /* Smooth transition for hover effect */
 }
 
 
 /* Logo Glow Effect on Hover */
 .title img:hover {
-    box-shadow: 0 0 15px 5px rgba(255, 255, 255, 0.8); /* Apply glowing effect to image outline */
+    box-shadow: 0 0 15px 5px rgba(255, 255, 255, 0.8); /* Apply glowing effect only to the image */
     transform: scale(1.05); /* Slightly enlarge the image on hover */
 }
 
