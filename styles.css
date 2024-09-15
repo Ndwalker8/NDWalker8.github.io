@@ -88,63 +88,6 @@ body {
 
 
 
-/* Header Logo and Navigation */
-.title {
-    display: flex;
-    align-items: center;
-}
-
-.title img {
-    margin-right: 10px;
-    max-width: 70px; /* Set a maximum width for the logo */
-    max-height: 70px; /* Set a maximum height for the logo */
-    object-fit: contain; /* Ensure the image keeps its aspect ratio */
-    margin-right: 10px;
-    transition: all 0.3s ease; /* Smooth transition for hover effect */
-}
-
-/* Logo Glow Effect on Hover */
-.title img:hover {
-    image-shadow: 0 0 15px 5px rgba(255, 255, 255, 0.8); /* White glow effect */
-    transform: scale(1.05); /* Slightly increase the size on hover */
-}
-
-/* Navbar Styling */
-.navbar {
-    display: flex;
-    gap: 20px;
-    flex-grow: 1; /* Allow navbar to take remaining space */
-    margin-left: auto; /* Ensures the navbar is pushed to the right */
-    padding-right: 20px; /* Adds padding to the right to prevent cut-off */
-}
-
-/* Navbar Links */
-.navbar-link {
-    color: white;
-    text-decoration: none;
-    font-size: 1.2rem;
-}
-
-.navbar-link:hover {
-    color: #ff6f61; /* Change color on hover */
-}
-
-/* Make Resume a Button */
-.navbar-link.resume {
-    background-color: #344955;
-    color: white;
-    padding: 10px 20px;
-    margin: 10px;
-    border-radius: 25px;
-    text-decoration: none;
-    font-size: 1rem;
-    font-family: 'Inter', sans-serif;
-    transition: background-color 0.3s ease; /* Smooth hover transition */
-}
-
-.navbar-link.resume:hover {
-    background-color: #ff3f31; /* Darker hover color, change as needed */
-}
 
 
 /* Hero Section */ 
