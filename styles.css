@@ -135,19 +135,20 @@ body {
 
 /* Make Resume a Button */
 .navbar-link.resume {
-    padding: 10px 20px;
-    background-color: #ff6f61; /* Button background color */
+    background-color: #344955;
     color: white;
-    border: none;
-    border-radius: 5px;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 25px;
     text-decoration: none;
-    transition: background-color 0.3s ease;
+    font-size: 1rem;
+    font-family: 'Inter', sans-serif;
+    transition: background-color 0.3s ease; /* Smooth hover transition */
 }
 
 .navbar-link.resume:hover {
-    background-color: #ff3f31; /* Darker hover color */
+    background-color: #ff3f31; /* Darker hover color, change as needed */
 }
-
 
 
 /* Hero Section */ 
