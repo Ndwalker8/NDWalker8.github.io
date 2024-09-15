@@ -26,6 +26,16 @@
     </header>
     
 
+ <script>
+        // Toggle sticky header
+        window.addEventListener("scroll", function() {
+            var header = document.querySelector(".header");
+            header.classList.toggle("active", window.scrollY > 50); // Add 'active' after scrolling 50px
+        });
+    </script>
+
+
+    
     <!-- Hero Section -->
     <section id="hero">
         <div class="container"> 
@@ -49,14 +59,7 @@
     </section>
 
 
-    <script>
-        // Toggle sticky header
-        window.addEventListener("scroll", function() {
-            var header = document.querySelector(".header");
-            header.classList.toggle("active", window.scrollY > 50); // Add 'active' after scrolling 50px
-        });
-    </script>
-
+   
 
     <!-- Parallax Section -->
     <div class="parallax"></div>
