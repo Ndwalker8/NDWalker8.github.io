@@ -6,6 +6,68 @@ body {
     color: #F0F0F0;
 }
 
+/* Header Styles */
+.header {
+    position: fixed;
+    width: 100%;
+    padding-block: 15px;
+    background-color: transparent; /* Start as transparent */
+    box-shadow: var(--shadow);
+    z-index: 4;
+    transition: background-color 0.25s ease, box-shadow 0.25s ease;
+}
+
+.header.active {
+    background-color: var(--bg); /* Background color after scrolling */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* Shadow after scrolling */
+}
+
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+}
+
+.title img {
+    margin-right: 10px;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.navbar-link {
+    color: var(--txt1);
+    font-family: var(--ff-barlow);
+    transition: color 0.25s;
+}
+
+.navbar-link:hover {
+    color: var(--btn2); /* Color change on hover */
+}
+
+.btn {
+    padding: 10px 20px;
+    background-color: var(--btn);
+    border-radius: 50px;
+    color: white;
+}
+
+.btn-primary.blue:hover {
+    background-color: var(--btn2); /* Hover effect */
+}
+
+
+
+
+
 /* Hero Section */ 
 #hero {
     background-color: #212A31;
