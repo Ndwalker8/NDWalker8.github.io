@@ -14,18 +14,17 @@ body {
     left: 0;  /* Ensure it starts from the left */
     width: 100%; /* Full-width header */
     padding: 20px;
-    background-color: #212A31; /* Solid background for header */
-    z-index: 1000;
+    background-color: rgba(33, 33, 33, 0); /* Fully transparent */    z-index: 1000;
     display: flex;
     justify-content: space-between;
     align-items: center;
     transition: background-color 0.3s ease;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+    
 }
 
 /* Make header visible when scrolling */
 .header.active {
-    background-color: #212A31; /* Same solid background when scrolling */
+    background-color: #222831; /* Same solid background when scrolling */
 }
 
 /* Header Logo and Navigation */
