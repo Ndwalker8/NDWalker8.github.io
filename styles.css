@@ -500,6 +500,7 @@ body {
     justify-content: space-between; /* Ensure space is distributed evenly */
     align-items: center;
     margin: 0 auto;
+    margin-bottom: 30px
 
 }
 
