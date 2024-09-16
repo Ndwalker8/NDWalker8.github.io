@@ -341,7 +341,7 @@ body {
     margin-bottom: 30px;
     margin-top: 40px; /* Adjust this value as needed */
     font-family: 'Inter', sans-serif;;
-    color: #7091E6;
+    color: #F0F0F0;
 }
 
 .projects-container {
@@ -460,7 +460,7 @@ body {
 .extra-curricular-details p {
     margin: 5px 0; /* Increase the space above and below the paragraph */
     font-size: 1rem;
-    color: #4056A1;
+    color: #F0F0F0;
 }
 
 .extra-curricular-date {
