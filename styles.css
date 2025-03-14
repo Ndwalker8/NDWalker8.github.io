@@ -391,20 +391,6 @@ body {
 }
 
 
-/* Parallax Effect */
-.parallax {
-    background-image: url('REN.webp');
-    height: 300px; /* Increased height */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding: 50px 20px;
-    margin_bottom: 40px; /* Adds spacing below parallax */
-
-}
-
-
 
 /* Extra-Curricular Section */
 #extra-curricular {
