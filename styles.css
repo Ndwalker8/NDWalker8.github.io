@@ -14,7 +14,7 @@ body {
     width: 100%; /* Full-width header */
     padding: 20px;
     background-color: rgba(33, 33, 33, 0); /* Fully transparent initially */
-    z-index: 1000;
+    z-index: 1200;
     display: flex;
     justify-content: space-between; /* Space between the title and the navbar */
     align-items: center;
@@ -239,7 +239,7 @@ body {
 #education {
     text-align: center;
     position: relative;
-    margin-bottom: 20px:
+    margin-bottom: 20px;
 }
 
 #experience {
