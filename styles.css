@@ -94,7 +94,7 @@ body {
     background-attachment: scroll;
     background-position: top;
     background-position: center;
-    color: white;
+    color: #EEEEEE;
     padding: 150px 20px;
     text-align: center;
     position: relative;
@@ -202,11 +202,13 @@ body {
 
     /* Adjust the text size in the hero section */
     .hero-content h1 {
-        font-size: 1.5rem; /* Reduce font size for smaller screens */
+        font-size: 2rem; /* Reduce font size for smaller screens */
+        color: #EEEEEE;
     }
 
     .hero-content h2 {
         font-size: 1.3rem; /* Smaller font size */
+        color: #EEEEEE;
     }
 
     .hero-content p {
