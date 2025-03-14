@@ -243,7 +243,7 @@ body {
 #education h2 {
     font-size: 2rem;
     margin-bottom: 20px;
-    color: #EEEEEE; /* Consistent light text color */
+    color: #76ABAE; /* Consistent light text color */
 }
 
 /* Education and Experience Section */
@@ -353,7 +353,7 @@ body {
     margin-bottom: 30px;
     margin-top: 40px; /* Adjust this value as needed */
     font-family: 'Inter', sans-serif;;
-    color: #EEEEEE;
+    color: #76ABAE;
 }
 
 .projects-container {
@@ -413,7 +413,7 @@ body {
     font-size: 2rem;
     margin-bottom: 40px;
     font-family: 'Inter', sans-serif;
-    color: #EEEEEE;
+    color: #76ABAE;
 }
 
 .extra-curricular-container {
@@ -485,7 +485,7 @@ body {
     font-size: 2rem;
     margin-bottom: 30px;
     font-family: 'Inter', sans-serif;
-    color: #EEEEEE;
+    color: #76ABAE;
 }
 
 .skills-box {
