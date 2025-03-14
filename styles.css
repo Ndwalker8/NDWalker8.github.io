@@ -14,7 +14,7 @@ body {
     width: 100%; /* Full-width header */
     padding: 30px;
     background-color: rgba(33, 33, 33, 0); /* Fully transparent initially */
-    z-index: 1000;
+    z-index: 900;
     display: flex;
     justify-content: space-between; /* Space between the title and the navbar */
     align-items: center;
