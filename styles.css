@@ -1,5 +1,5 @@
 body {
-    font-family: 'Inter', sans-serif;;
+    font-family: 'Inter', verdana;
     margin: 0;
     padding: 0;
     background-color: #222831;
@@ -148,7 +148,7 @@ body {
 .hero-content h1 {
     font-size: 2rem;
     margin-bottom: 10px;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Inter', verdana;
 }
 
 
