@@ -104,7 +104,7 @@ body {
 .hero-container {
     background-color: rgba(255, 255, 255, 0.9);
     border-radius: 25px;
-    padding: 40px;
+    padding: 30px;
     max-width: 90%;
     margin: 0 auto;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
@@ -112,8 +112,8 @@ body {
 
 /*Profile Picture */
 .hero-image {
-    width: 250px; /* Adjust size as needed */
-    height: 250px; /* Keep height equal to width for a perfect circle */
+    width: 200px; /* Adjust size as needed */
+    height: 200px; /* Keep height equal to width for a perfect circle */
     border-radius: 50%; /* Makes the image circular */
     object-fit: cover; /* Ensures the image fills the circular area */
     display: block;
