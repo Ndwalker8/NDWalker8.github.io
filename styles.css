@@ -122,12 +122,12 @@ body {
 }
 
 .container {
-    background-image: url('REN.webp');
+    background-image: url('AEB3.jpeg');
     background-attachment: fixed; /* Parallax effect */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 30px 20px;
+    padding: 20px 20px;
     border-radius: 25px;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
     color: #F0F0F0;
@@ -138,7 +138,7 @@ body {
     max-width: 800px;
     margin: 0 auto;
     background-color: rgba(0, 0, 0, 0.7);
-    padding: 40px;
+    padding: 20px;
     border-radius: 10px;
     font-family: 'Inter', sans-serif;;}
 
