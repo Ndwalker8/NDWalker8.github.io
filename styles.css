@@ -111,7 +111,7 @@ body {
 }
 
 .container {
-    background-image: url('AEB3.jpeg');
+    background-image: url('REN.webp');
     background-attachment: fixed; /* Parallax effect */
     background-position: center;
     background-repeat: no-repeat;
@@ -151,7 +151,7 @@ body {
 
 .social-links img {
     width: 30px;
-    margin: 0 10px;
+    margin: 5px 10px;
 }
 
 .buttons {
