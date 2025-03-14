@@ -143,7 +143,7 @@ body {
     background-color: rgba(0, 0, 0, 0.7);
     padding: 20px;
     border-radius: 10px;
-    font-family: 'Inter', sans-serif;;}
+    font-family: 'Inter', verdana;}
 
 .hero-content h1 {
     font-size: 2rem;
@@ -155,7 +155,7 @@ body {
 .hero-content p {
     font-size: 1.5rem;
     margin-bottom: 20px;
-    font-family: 'Inter', sans-serif;;
+    font-family: 'Inter', verdana;;
 }
 
 .social-links img {
@@ -177,7 +177,7 @@ body {
     border-radius: 25px;
     text-decoration: none;
     font-size: 1rem;
-    font-family: 'Inter', sans-serif;;
+    font-family: 'Inter', verdana;;
 }
 
 .buttons .btn:hover {
@@ -272,7 +272,7 @@ body {
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
     max-width: 900px;
     margin: 20px auto;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Inter', verdana;
     max-height: unset; /* Remove height restriction */
 }
 
@@ -352,7 +352,7 @@ body {
     font-size: 2rem;
     margin-bottom: 30px;
     margin-top: 40px; /* Adjust this value as needed */
-    font-family: 'Inter', sans-serif;;
+    font-family: 'Inter', verdana;;
     color: #76ABAE;
 }
 
@@ -376,7 +376,7 @@ body {
     text-decoration: none; /* Remove underline */
     color: #EEEEEE; /* Ensure the text color is correct */
     transition: transform 0.2s ease-in-out;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Inter', verdana;
 }
 
 .project-item:hover {
@@ -398,7 +398,7 @@ body {
 .project-item p {
     font-size: 0.9rem;
     color: #EEEEEE;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Inter', verdana;
 }
 
 
@@ -412,7 +412,7 @@ body {
 #extra-curricular h2 {
     font-size: 2rem;
     margin-bottom: 40px;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Inter', verdana;
     color: #76ABAE;
 }
 
@@ -444,7 +444,7 @@ body {
 }
 
 .extra-curricular-details {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Inter', verdana;
     margin-left: 10px; /* Adds space between the text elements */
 }
 
@@ -484,7 +484,7 @@ body {
 .technical-skills-section h2 {
     font-size: 2rem;
     margin-bottom: 30px;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Inter', verdana;
     color: #76ABAE;
 }
 
@@ -552,7 +552,7 @@ body {
     line-height: 1.8;
     color: #555;
     margin-bottom: 15px;
-    font-family: 'Arial', sans-serif;
+    font-family: 'Arial', verdana;
 }
 
 .about-me-image {
@@ -577,7 +577,7 @@ body {
 .about-me-details p {
     font-size: 1.1rem;
     color: #555;
-    font-family: 'Arial', sans-serif;
+    font-family: 'Arial', verdana;
     margin-bottom: 15px;
 }
 
