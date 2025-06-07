@@ -100,7 +100,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .experience-card h3 {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     margin-bottom: 0.5rem;
 }
 
@@ -120,14 +120,14 @@ h1, h2, h3, h4, h5, h6 {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 40px;
+    gap: 50px;
     padding: 40px 20px;
     max-width: 1200px;
     margin: 0 auto;
 }
 
 .project-item {
-    width: 240px;
+    width: 220px;
     background-color: #f8f6f9;
     border-radius: 12px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -159,7 +159,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .project-item p {
     font-size: 1.3rem;
-    color: #333;
+    color: #000;
 }
 
 /* Section Headers */
