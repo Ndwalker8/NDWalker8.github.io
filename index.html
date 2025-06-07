@@ -7,6 +7,54 @@
   <link rel="stylesheet" href="styles.css">
   <link rel="icon" href="Logo.ico" sizes="256x256" type="image/x-icon">
   <style>
+    body {
+      margin: 0;
+      font-family: Inter, sans-serif;
+      background-color: #1a1a1a;
+      color: #eeeeee;
+    }
+    .header {
+      background-color: #222;
+      color: #fff;
+      padding: 10px 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      z-index: 1000;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    }
+    .title {
+      font-size: 1.5rem;
+      font-weight: bold;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    .title img {
+      width: 32px;
+      height: 32px;
+    }
+    .navbar {
+      display: flex;
+      gap: 20px;
+    }
+    .navbar-link {
+      color: #fff;
+      text-decoration: none;
+      font-weight: 500;
+    }
+    .navbar-link:hover {
+      text-decoration: underline;
+    }
+    .container {
+      padding: 100px 20px 40px;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
     .education-item {
       display: flex;
       align-items: center;
@@ -57,7 +105,7 @@
   <header class="header" id="header">
     <div class="title">
       <img src="Logo.png" alt="Logo">
-      Nicholas Walker
+      <span>Nicholas Walker</span>
     </div>
     <nav class="navbar">
       <a href="#hero" class="navbar-link">Home</a>
