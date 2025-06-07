@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="styles.css">
   <link rel="icon" href="Logo.ico" sizes="256x256" type="image/x-icon">
   <style>
+    /* [Header & Navbar Styles] */
     .header {
       display: flex;
       justify-content: space-between;
@@ -44,21 +45,8 @@
     .navbar-link:hover {
       color: #76ABAE;
     }
-    .social-links {
-      display: flex;
-      justify-content: center;
-      gap: 10px;
-      margin-top: 15px;
-    }
-    .social-links img {
-      width: 32px;
-      height: 32px;
-      object-fit: contain;
-      transition: transform 0.2s;
-    }
-    .social-links img:hover {
-      transform: scale(1.1);
-    }
+
+    /* [Body & Layout] */
     body {
       padding-top: 80px;
       font-family: 'Inter', sans-serif;
@@ -70,6 +58,8 @@
       margin: 0 auto;
       padding: 20px;
     }
+
+    /* [Hero Section] */
     .hero-content {
       background-color: rgba(255, 255, 255, 0.05);
       border-radius: 15px;
@@ -86,8 +76,24 @@
       height: 180px;
       border-radius: 50%;
       object-fit: cover;
-      margin: 20px 0;
+      margin: 0 auto 20px;
+      display: block;
       border: 4px solid #76ABAE;
+    }
+    .social-links {
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+      margin-top: 15px;
+    }
+    .social-links img {
+      width: 32px;
+      height: 32px;
+      object-fit: contain;
+      transition: transform 0.2s;
+    }
+    .social-links img:hover {
+      transform: scale(1.1);
     }
     .buttons {
       margin-top: 20px;
@@ -108,6 +114,40 @@
     .btn:hover {
       background-color: #50727B;
     }
+
+    /* [Section Headings] */
+    section h2 {
+      text-align: center;
+      font-family: "Monotype Baskerville", serif;
+      font-size: 2rem;
+      color: #76ABAE;
+      margin: 40px 0 20px;
+    }
+
+    /* [Education + Experience Shared Styles] */
+    .education-item {
+      background-color: #31363F;
+      border-radius: 10px;
+      padding: 20px;
+      display: flex;
+      align-items: center;
+      margin-bottom: 20px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+    .education-item img {
+      max-width: 80px;
+      margin-right: 20px;
+    }
+    .education-details {
+      flex: 1;
+    }
+    .duration {
+      font-size: 1rem;
+      font-weight: bold;
+      color: #EEEEEE;
+    }
+
+    /* [Footer] */
     footer {
       margin-top: 60px;
       text-align: center;
@@ -146,6 +186,56 @@
           <a href="#projects" class="btn">Key Projects</a>
           <a href="#about-me" class="btn">About Me</a>
         </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="education">
+    <h2>Education</h2>
+    <div class="container">
+      <div class="education-item">
+        <img src="RPIII.png" alt="RPI Logo">
+        <div class="education-details">
+          <h3>Rensselaer Polytechnic Institute</h3>
+          <p>Bachelors of Science – Aerospace & Mechanical Engineering Dual</p>
+          <p>Troy, NY, USA</p>
+        </div>
+        <div class="duration">2021 - 2025</div>
+      </div>
+    </div>
+  </section>
+
+  <section id="experience">
+    <h2>Experience</h2>
+    <div class="container">
+      <div class="education-item">
+        <img src="GEV_emb.png" alt="GE Logo">
+        <div class="education-details">
+          <h3>GE Vernova</h3>
+          <p>Steampath Design Intern – Steam Turbine Full-scale Layout Simulation</p>
+          <p>Schenectady, NY, USA</p>
+        </div>
+        <div class="duration">Spring 2024</div>
+      </div>
+
+      <div class="education-item">
+        <img src="RENSS.webp" alt="RPI Research">
+        <div class="education-details">
+          <h3>Structural Damage Diagnostic Research</h3>
+          <p>Undergraduate Researcher – FEM/SEM Damage Diagnostic</p>
+          <p>Troy, NY, USA</p>
+        </div>
+        <div class="duration">Fall 2023</div>
+      </div>
+
+      <div class="education-item">
+        <img src="CCM.png" alt="CCM Logo">
+        <div class="education-details">
+          <h3>CrossCountry Mortgage LLC</h3>
+          <p>Mortgage Processing Intern – Data Analysis</p>
+          <p>Edina, MN, USA</p>
+        </div>
+        <div class="duration">Summer 2022</div>
       </div>
     </div>
   </section>
