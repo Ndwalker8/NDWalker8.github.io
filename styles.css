@@ -21,33 +21,40 @@ h1, h2, h3, h4, h5, h6 {
     align-items: center;
     padding: 20px;
     background-color: white;
-    font-size: 2rem;
-}
-
-.navbar-left, .navbar-center {
-    font-weight: bold;
+    font-family: "Monotype Baskerville", serif;
 }
 
 .navbar-left {
     flex: 1;
     text-align: left;
-    font-size: 2rem;
+    font-size: 1.2rem;
     font-family: "Monotype Baskerville", serif;
 }
 
 .navbar-center {
     flex: 1;
     text-align: center;
-    font-size: 2rem;
+    font-size: 1.6rem;
+    font-weight: bold;
     font-family: "Monotype Baskerville", serif;
 }
 
 .navbar {
-    display: flex;
-    gap: 20px;
     flex: 1;
+    display: flex;
     justify-content: flex-end;
+    gap: 20px;
+    font-family: "Monotype Baskerville", serif;
 }
+
+.navbar-link {
+    text-decoration: none;
+    color: black;
+    font-size: 1.1rem;
+    font-weight: 500;
+    font-family: "Monotype Baskerville", serif;
+}
+
 
 
 /* Hero Section */
