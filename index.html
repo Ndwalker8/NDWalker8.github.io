@@ -60,7 +60,61 @@
       transform: scale(1.1);
     }
     body {
-      padding-top: 80px; /* Offset for fixed header */
+      padding-top: 80px;
+      font-family: 'Inter', sans-serif;
+      background-color: #222831;
+      color: #EEEEEE;
+    }
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    .hero-content {
+      background-color: rgba(255, 255, 255, 0.05);
+      border-radius: 15px;
+      padding: 40px;
+      text-align: center;
+    }
+    .hero-content h1 {
+      font-family: "Monotype Baskerville", serif;
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+    }
+    .hero-image {
+      width: 180px;
+      height: 180px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin: 20px 0;
+      border: 4px solid #76ABAE;
+    }
+    .buttons {
+      margin-top: 20px;
+      display: flex;
+      justify-content: center;
+      gap: 15px;
+    }
+    .btn {
+      background-color: #344955;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 25px;
+      text-decoration: none;
+      font-size: 1rem;
+      font-family: 'Inter', sans-serif;
+      transition: background-color 0.3s;
+    }
+    .btn:hover {
+      background-color: #50727B;
+    }
+    footer {
+      margin-top: 60px;
+      text-align: center;
+      padding: 20px;
+      background-color: #1b1b1b;
+      color: #EEEEEE;
+      font-size: 0.9rem;
     }
   </style>
 </head>
@@ -95,9 +149,6 @@
       </div>
     </div>
   </section>
-
-  <!-- The rest of the content remains the same -->
-  <!-- Education, Experience, Projects, About Me, Footer -->
 
   <footer>
     <p>&copy; 2024 Nicholas Walker</p>
