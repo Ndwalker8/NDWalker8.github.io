@@ -102,6 +102,33 @@
       display: block;
       border: 4px solid #76ABAE;
     }
+    .experience-grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+    }
+    .experience-card {
+      background-color: #2a2a2a;
+      padding: 20px;
+      border-radius: 10px;
+      text-align: center;
+      max-width: 260px;
+    }
+    .experience-card img {
+      width: 100%;
+      height: auto;
+      max-height: 100px;
+      object-fit: contain;
+      margin-bottom: 10px;
+    }
+    .experience-card h3 {
+      margin: 10px 0 5px;
+    }
+    .experience-card p,
+    .experience-card .duration {
+      margin: 5px 0;
+    }
   </style>
 </head>
 <body>
@@ -144,34 +171,27 @@
   <section id="experience">
     <h2>Experience</h2>
     <div class="container">
-      <div class="education-item" style="background-color: #2a2a2a; padding: 10px; border-radius: 8px;">
-        <img src="GEV_emb.png" alt="GE Logo">
-        <div class="education-details">
+      <div class="experience-grid">
+        <div class="experience-card">
+          <img src="GEV_emb.png" alt="GE Logo">
           <h3>GE Vernova</h3>
-          <p>Steampath Design Intern – Steam Turbine Full-scale Layout Simulation</p>
-          <p>Schenectady, NY, USA</p>
+          <p>Steampath Design Intern</p>
+          <p class="duration">Spring 2024</p>
         </div>
-        <div class="duration">Spring 2024</div>
-      </div>
 
-      <div class="education-item" style="background-color: #2a2a2a; padding: 10px; border-radius: 8px;">
-        <img src="RENSS.webp" alt="RPI Research">
-        <div class="education-details">
+        <div class="experience-card">
+          <img src="RENSS.webp" alt="RPI Research">
           <h3>Structural Damage Diagnostic Research</h3>
-          <p>Undergraduate Researcher – FEM/SEM Damage Diagnostic</p>
-          <p>Troy, NY, USA</p>
+          <p>Undergraduate Researcher</p>
+          <p class="duration">Fall 2023</p>
         </div>
-        <div class="duration">Fall 2023</div>
-      </div>
 
-      <div class="education-item" style="background-color: #2a2a2a; padding: 10px; border-radius: 8px;">
-        <img src="CCM.png" alt="CCM Logo">
-        <div class="education-details">
+        <div class="experience-card">
+          <img src="CCM.png" alt="CCM Logo">
           <h3>CrossCountry Mortgage LLC</h3>
-          <p>Mortgage Processing Intern – Data Analysis</p>
-          <p>Edina, MN, USA</p>
+          <p>Mortgage Processing Intern</p>
+          <p class="duration">Summer 2022</p>
         </div>
-        <div class="duration">Summer 2022</div>
       </div>
     </div>
   </section>
