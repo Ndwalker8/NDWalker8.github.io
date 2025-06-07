@@ -16,14 +16,19 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Header Styling */
 .header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: white;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    background-color: white;
     font-family: "Monotype Baskerville", serif;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
+/* Left text */
 .navbar-left {
     flex: 1;
     text-align: left;
@@ -31,6 +36,7 @@ h1, h2, h3, h4, h5, h6 {
     font-family: "Monotype Baskerville", serif;
 }
 
+/* Center text */
 .navbar-center {
     flex: 1;
     text-align: center;
@@ -39,6 +45,7 @@ h1, h2, h3, h4, h5, h6 {
     font-family: "Monotype Baskerville", serif;
 }
 
+/* Navigation bar (right side) */
 .navbar {
     flex: 1;
     display: flex;
@@ -47,6 +54,7 @@ h1, h2, h3, h4, h5, h6 {
     font-family: "Monotype Baskerville", serif;
 }
 
+/* Individual nav links */
 .navbar-link {
     text-decoration: none;
     color: black;
