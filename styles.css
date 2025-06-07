@@ -100,7 +100,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .experience-card h3 {
-    font-size: 1.9rem;
+    font-size: 1.7rem;
     margin-bottom: 0.5rem;
 }
 
@@ -112,7 +112,7 @@ h1, h2, h3, h4, h5, h6 {
 .duration {
     font-size: 1.3rem;
     font-weight: normal;
-    color: gray;
+    color: #f8f6f9;
 }
 
 /* Projects Section */
@@ -151,15 +151,15 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .project-item h3 {
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     margin-bottom: 10px;
     text-transform: uppercase;
     color: black;
 }
 
 .project-item p {
-    font-size: 1.3rem;
-    color: #333;
+    font-size: 1.2rem;
+    color: #f8f6f9;
 }
 
 /* Section Headers */
