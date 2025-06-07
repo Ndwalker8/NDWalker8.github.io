@@ -19,7 +19,7 @@ h1, h2, h3, h4, h5, h6 {
 .hero-content {
   max-width: 800px;
   margin: 0 auto;
-  background-color: #f6f8f9;
+  background-color: #ffffff;
   padding: 30px;
   border-radius: 10px;
   text-align: center;
@@ -46,7 +46,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .social-links img {
-  width: 32px;
+  width: 28px;
+  height: 28px;
   margin: 0 10px;
 }
 
