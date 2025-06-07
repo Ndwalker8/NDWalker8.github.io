@@ -135,7 +135,7 @@
     }
     .experience-card p {
       font-size: 1.3rem;
-      margin: 0.4rem 0;
+      margin: 0.9rem 0;
       color: #333333;
     }
     .experience-card .duration {
@@ -143,6 +143,35 @@
       font-weight: normal;
       margin: 0.5rem 0 1.4rem;
       color: gray;
+    }
+    .projects-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 40px;
+    }
+    .project-item {
+      width: 300px;
+      text-align: center;
+      background-color: #f6f8f9;
+      border-radius: 8px;
+      padding: 20px;
+      text-decoration: none;
+      color: #000;
+    }
+    .project-item img {
+      width: 100%;
+      border-radius: 8px;
+      max-height: 200px;
+      object-fit: cover;
+    }
+    .project-item h3 {
+      margin-top: 15px;
+      font-size: 1.5rem;
+    }
+    .project-item p {
+      font-size: 1rem;
+      color: #333;
     }
   </style>
 </head>
@@ -208,22 +237,42 @@
 
   <section id="projects" class="container">
     <h2>Key Projects</h2>
-    <div class="experience-grid">
-      <div class="experience-card">
+    <div class="projects-container">
+      <a href="Projects.pdf" target="_blank" class="project-item">
         <img src="YD.png" alt="Yonka Rocket">
         <h3>Yonka Rocket</h3>
         <p>Carbon Fiber rocket simulated in NASTRAN with analyses in NumPy and SciPy libraries in Python.</p>
-      </div>
-      <div class="experience-card">
-        <img src="3DF2.png" alt="Fil-a-Bot">
+      </a>
+      <a href="Fil-A-Bot_Memo.docx.pdf" target="_blank" class="project-item">
+        <img src="3DF2.png" alt="SkyConvoy UH20 Aircraft Design">
         <h3>Fil-a-Bot</h3>
         <p>A sustainability project aimed at transforming recycled plastic bottles into 3D printing filament.</p>
-      </div>
-      <div class="experience-card">
-        <img src="FIN.png" alt="Fin-Array">
+      </a>
+      <a href="Fin_Project.pdf" target="_blank" class="project-item">
+        <img src="FIN.png" alt="Static Rocket Motor Test Pad">
         <h3>Fin-Array</h3>
-        <p>Heat sink modeled in NX and optimized to maximize thermal efficiency using convection principles.</p>
-      </div>
+        <p>Heat sink modeled in NX, and optimized to maximize thermal efficiency using convection principles.</p>
+      </a>
+      <a href="Final_Presentation-Albatross.pdf" target="_blank" class="project-item">
+        <img src="UAV.png" alt="Sounding Rocket Recovery System">
+        <h3>UAV Damage State</h3>
+        <p>FEM damage diagnostic models for exploring structural health with respect to damage state parametrization.</p>
+      </a>
+      <a href="LineFollower.pdf" target="_blank" class="project-item">
+        <img src="LineF.png" alt="Line Follower">
+        <h3>Line Follower</h3>
+        <p>Arduino PID control algorithms to maintain path position with sensors.</p>
+      </a>
+      <a href="LineFollower.pdf" target="_blank" class="project-item">
+        <img src="Drone.png" alt="Autonomous Drone">
+        <h3>Autonomous Drone</h3>
+        <p>Autonomous flight modeling in C++ simulation environment control algorithms for real-time path planning.</p>
+      </a>
+      <a href="Orbiter.pdf" target="_blank" class="project-item">
+        <img src="Europa.png" alt="Europa Orbiter">
+        <h3>Europa Orbiter</h3>
+        <p>Europa mission design for multiple fly-bys and a lander to analyze its surface and search for life.</p>
+      </a>
     </div>
   </section>
 
