@@ -7,17 +7,10 @@
   <link rel="stylesheet" href="styles.css">
   <link rel="icon" href="Logo.ico" sizes="256x256" type="image/x-icon">
   <style>
-    /* Header, Body, and Shared Styles omitted for brevity (assume same as before) */
-    /* ... */
-
     .education-item {
-      background-color: #31363F;
-      border-radius: 10px;
-      padding: 20px;
       display: flex;
       align-items: center;
       margin: 20px auto 0;
-      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
       max-width: 800px;
     }
     .education-item img {
@@ -31,6 +24,21 @@
       font-size: 1rem;
       font-weight: bold;
       color: #EEEEEE;
+    }
+    .social-links {
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+      margin-top: 15px;
+    }
+    .social-links img {
+      width: 24px;
+      height: 24px;
+      object-fit: contain;
+      transition: transform 0.2s;
+    }
+    .social-links img:hover {
+      transform: scale(1.1);
     }
   </style>
 </head>
