@@ -6,234 +6,8 @@
   <title>Nicholas Walker - Engineering Portfolio</title>
   <link rel="stylesheet" href="styles.css">
   <link rel="icon" href="Logo.ico" sizes="256x256" type="image/x-icon">
-  <style>
-    body {
-      margin: 0;
-      font-family: Inter, sans-serif;
-      background-color: #f8f6f9;
-      color: #000000;
-    }
-    .header {
-      background-color: #ffffff;
-      color: #000;
-      padding: 10px 40px;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      position: fixed;
-      top: 0;
-      left: 0;
-      width: 100%;
-      z-index: 1000;
-      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-      box-sizing: border-box;
-    }
-    .title {
-      font-size: 1.5rem;
-      font-weight: bold;
-      display: flex;
-      align-items: center;
-      gap: 10px;
-    }
-    .title img {
-      width: 32px;
-      height: 32px;
-    }
-    .navbar {
-      display: flex;
-      gap: 20px;
-      flex-wrap: nowrap;
-    }
-    .navbar-link {
-      color: #000;
-      text-decoration: none;
-      font-weight: 500;
-      white-space: nowrap;
-    }
-    .navbar-link:hover {
-      text-decoration: underline;
-    }
-    .container {
-      padding: 100px 20px 40px;
-      max-width: 1200px;
-      margin: 0 auto;
-    }
-    .education-item {
-      display: flex;
-      align-items: center;
-      margin: 20px auto 0;
-      max-width: 800px;
-      padding: 20px 0;
-      border-radius: 8px;
-    }
-    .education-item img {
-      max-width: 80px;
-      margin-right: 20px;
-    }
-    .education-details {
-      flex: 1;
-    }
-    .duration {
-      font-size: 1rem;
-      font-weight: normal;
-      color: gray;
-    }
-    .social-links {
-      display: flex;
-      justify-content: center;
-      gap: 10px;
-      margin-top: 15px;
-    }
-    .social-links img {
-      width: 20px;
-      height: 20px;
-      object-fit: contain;
-      transition: transform 0.2s;
-    }
-    .social-links img:hover {
-      transform: scale(1.1);
-    }
-    .hero-image {
-      width: 180px;
-      height: 180px;
-      border-radius: 50%;
-      object-fit: cover;
-      margin: 0 auto 20px;
-      display: block;
-      border: 4px solid #76ABAE;
-    }
-    .experience-grid {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 100px;
-      justify-content: center;
-    }
-    .experience-card {
-      background-color: #f6f8f9;
-      padding: 0;
-      border-radius: 10px;
-      text-align: center;
-      width: 250px;
-      box-sizing: border-box;
-      line-height: 3.5rem;
-      color: #000000;
-    }
-    .experience-card img {
-      width: calc(100% - 4rem);
-      height: auto;
-      max-height: 260px;
-      object-fit: contain;
-      margin: 2.4rem;
-      margin-bottom: 0;
-    }
-    .experience-card h3 {
-      font-size: 2rem;
-      font-family: "Monotype Baskerville", serif;
-      margin: 3.6rem 0 0.8rem;
-      color: #000000;
-      text-transform: uppercase;
-    }
-    .experience-card p {
-      font-size: 1.3rem;
-      margin: 0.9rem 0;
-      color: #333333;
-    }
-    .experience-card .duration {
-      font-size: 1.3rem;
-      font-weight: normal;
-      margin: 0.5rem 0 1.4rem;
-      color: gray;
-    }
-    .projects-container {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      gap: 40px;
-    }
-    .project-item {
-      width: 240px;
-      height: 480px;
-      text-align: center;
-      background-color: #f6f8f9;
-      border-radius: 8px;
-      padding: 20px;
-      text-decoration: none;
-      color: #000;
-      display: flex;
-      flex-direction: column;
-      justify-content: flex-start;
-    }
-    .project-item img {
-      width: 100%;
-      height: 220px;
-      border-radius: 8px;
-      object-fit: contain;
-    }
-    .project-item h3 {
-      margin-top: 2.5rem;
-      font-size: 2rem;
-      text-transform: uppercase;
-    }
-    .project-item p {
-      font-size: 1.3rem;
-      color: #333;
-    }
-    h2 {
-      color: #000;
-      text-transform: uppercase;
-    }
-    .about-me-container {
-      display: flex;
-      justify-content: space-between;
-      align-items: flex-start;
-      padding: 60px 40px;
-      background-color: #f6f8f9;
-    }
-    .about-me-text {
-      width: 60%;
-      font-size: 1.2rem;
-      line-height: 1.6;
-    }
-    .about-me-image {
-      width: 35%;
-      text-align: center;
-    }
-    .about-me-image img {
-      width: 220px;
-      height: auto;
-      border-radius: 12px;
-      margin-bottom: 20px;
-    }
-    .about-me-details {
-      margin-top: 20px;
-    }
-    .about-me-details h3 {
-      font-size: 1.4rem;
-      margin-bottom: 0.5rem;
-    }
-    .about-me-details p {
-      font-size: 1.1rem;
-      color: #333;
-    }
-    .affiliations img {
-      width: 40px;
-      margin: 0 5px;
-    }
-    .skills-box {
-      display: flex;
-      justify-content: center;
-      flex-wrap: wrap;
-      gap: 30px;
-      padding: 40px 20px;
-    }
-    .skills-box img {
-      width: 60px;
-      height: auto;
-    }
-  </style>
 </head>
 <body>
-
   <div class="header">
     <div class="title">
       <img src="Logo.png" alt="Logo">
@@ -247,7 +21,7 @@
   </div>
 
   <section id="hero" class="container">
-    <div class="hero-content">
+    <div class="hero-content" style="background-color:#ffffff;">
       <h1>Nicholas Walker</h1>
       <img src="PPP3.jpg" alt="Profile Picture" class="hero-image">
       <p>Aerospace and Mechanical Engineer</p>
@@ -256,6 +30,7 @@
         <a href="https://www.linkedin.com/in/nicholaswalker8"><img src="LinkedIn_Logo.png" alt="LinkedIn"></a>
       </div>
 
+      <!-- Education Entry (now placed here) -->
       <div class="education-item">
         <img src="RPIII.png" alt="RPI Logo">
         <div class="education-details">
@@ -269,74 +44,116 @@
     </div>
   </section>
 
-  <section id="experience" class="container">
+  <!-- Experience Section -->
+  <section id="experience">
     <h2>Experience</h2>
     <div class="experience-grid">
       <div class="experience-card">
         <img src="GEV_emb.png" alt="GE Logo">
-        <h3>GE Vernova</h3>
-        <p>Steampath Design Intern</p>
+        <h3>General Electric</h3>
+        <p>Steampath Design</p>
         <p class="duration">Spring 2024</p>
       </div>
       <div class="experience-card">
         <img src="RENSS.webp" alt="RPI Logo">
-        <h3>Structural Damage Diagnostic Research</h3>
-        <p>Undergraduate Researcher</p>
+        <h3>RPI Research</h3>
+        <p>Damage Diagnostic</p>
         <p class="duration">Fall 2023</p>
       </div>
       <div class="experience-card">
         <img src="CCM.png" alt="CrossCountry Logo">
-        <h3>CrossCountry Mortgage LLC</h3>
-        <p>Mortgage Processing Intern</p>
+        <h3>Crosscountry LLC</h3>
+        <p>Data Processing Intern</p>
         <p class="duration">Summer 2022</p>
       </div>
     </div>
   </section>
 
-  <section id="projects" class="container">
+  <!-- Projects Section -->
+  <section id="projects">
     <h2>Key Projects</h2>
     <div class="projects-container">
       <a href="Projects.pdf" target="_blank" class="project-item">
         <img src="YD.png" alt="Yonka Rocket">
-        <h3>Yonka Rocket</h3>
+        <h3>YONKA ROCKET</h3>
         <p>Carbon Fiber rocket simulated in NASTRAN with analyses in NumPy and SciPy libraries in Python.</p>
       </a>
       <a href="Fil-A-Bot_Memo.docx.pdf" target="_blank" class="project-item">
         <img src="3DF2.png" alt="SkyConvoy UH20 Aircraft Design">
-        <h3>Fil-a-Bot</h3>
+        <h3>FIL-A-BOT</h3>
         <p>A sustainability project aimed at transforming recycled plastic bottles into 3D printing filament.</p>
       </a>
       <a href="Fin_Project.pdf" target="_blank" class="project-item">
         <img src="FIN.png" alt="Static Rocket Motor Test Pad">
-        <h3>Fin-Array</h3>
+        <h3>FIN-ARRAY</h3>
         <p>Heat sink modeled in NX, and optimized to maximize thermal efficiency using convection principles.</p>
       </a>
       <a href="Final_Presentation-Albatross.pdf" target="_blank" class="project-item">
         <img src="UAV.png" alt="Sounding Rocket Recovery System">
-        <h3>UAV Damage State</h3>
+        <h3>UAV DAMAGE STATE</h3>
         <p>FEM damage diagnostic models for exploring structural health with respect to damage state parametrization.</p>
       </a>
       <a href="LineFollower.pdf" target="_blank" class="project-item">
         <img src="LineF.png" alt="Line Follower">
-        <h3>Line Follower</h3>
+        <h3>LINE FOLLOWER</h3>
         <p>Arduino PID control algorithms to maintain path position with sensors.</p>
       </a>
       <a href="LineFollower.pdf" target="_blank" class="project-item">
         <img src="Drone.png" alt="Autonomous Drone">
-        <h3>Autonomous Drone</h3>
+        <h3>AUTONOMOUS DRONE</h3>
         <p>Autonomous flight modeling in C++ simulation environment control algorithms for real-time path planning.</p>
       </a>
       <a href="Orbiter.pdf" target="_blank" class="project-item">
         <img src="Europa.png" alt="Europa Orbiter">
-        <h3>Europa Orbiter</h3>
+        <h3>EUROPA ORBITER</h3>
         <p>Europa mission design for multiple fly-bys and a lander to analyze its surface and search for life.</p>
       </a>
     </div>
   </section>
 
-  <section id="about-me" class="container">
-    <h2>About Me</h2>
-    <p>I'm a dual major in Aerospace and Mechanical Engineering at Rensselaer Polytechnic Institute with a minor in Economics. I’ve worked on everything from full-scale steam turbine simulations at GE Vernova to diagnostic models for UAV structures. I use tools like CATIA, NX, MATLAB, Python, and ANSYS in projects that bring together advanced analysis and engineering design. Outside of engineering, I’m actively involved in leadership and volunteer work. Let’s connect!</p>
+  <!-- Technical Skills Section -->
+  <section class="technical-skills-section">
+    <h2>Technical Skills</h2>
+    <div class="skills-box">
+      <img src="ansys-logo.png" alt="ANSYS">
+      <img src="nx-logo.png" alt="Siemens NX">
+      <img src="catia-logo.png" alt="CATIA">
+      <img src="matl.png" alt="MATLAB">
+      <img src="pyth.svg" alt="Python">
+      <img src="c++.png" alt="C++">
+    </div>
   </section>
+
+  <!-- About Me Section -->
+  <section id="about-me">
+    <div class="about-me-container">
+      <div class="about-me-text">
+        <h2>About Me</h2>
+        <p>Welcome to my Engineering Portfolio. My name is Nicholas Walker, and I'm an Aerospace and Mechanical Engineer with a strong background in design involving CAD simulations and coding.</p>
+        <p>I am currently pursuing a Bachelor of Science in Aerospace and Mechanical Engineering at Rensselaer Polytechnic Institute (RPI) and an expected graduation in May 2025. Alongside my major, I have also pursued a minor in Economics, allowing me to approach engineering challenges with a broader perspective.</p>
+        <p>Throughout my academic career, I have gained hands-on experience in various fields of aerospace and mechanical engineering, particularly through my roles as a Steampath Design Intern at GE Vernova, where I contributed to full-scale steam turbine bucket layout simulations. Additionally, I have conducted research on structural damage diagnostics as an undergraduate researcher at RPI, focusing on FEM/SEM damage diagnostic techniques.</p>
+        <p>I'm driven by a deep interest in innovation and technology, which is evident in my projects ranging from the design and analysis of vertical fin arrays for heat sinks to the development of UAV structural diagnostics. My technical skills span across various tools and software, including CATIA, ANSYS, Siemens NX, MATLAB, Python, and more.</p>
+        <p>Thank you for taking the time to learn about me. I can't wait to apply what I've learned throughout my career and follow my passion in driving the engineering field!</p>
+      </div>
+      <div class="about-me-image">
+        <img src="PRP.jpeg" alt="Profile Picture">
+        <div class="about-me-details">
+          <h3>Dean's List</h3>
+          <p>Aerospace Systems Engineering with Economics</p>
+          <p>Rensselaer Polytechnic Institute</p>
+          <img src="RENS.jpg" alt="RPI LOGO">
+          <div class="affiliations">
+            <img src="RRS.png" alt="Rensselaer Rocket Society">
+            <img src="LXA.webp" alt="Lambda Chi Alpha">
+            <img src="SFS.png" alt="Spaceflight Society">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2024 Nicholas Walker</p>
+  </footer>
 </body>
 </html>
