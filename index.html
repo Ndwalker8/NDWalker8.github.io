@@ -1,140 +1,143 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Nicholas Walker - Engineering Portfolio</title>
-  <link rel="stylesheet" href="styles.css" />
-  <link rel="icon" href="Logo.ico" sizes="256x256" type="image/x-icon" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nicholas Walker - Engineering Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="Logo.ico" sizes="256x256" type="image/x-icon">
 </head>
 <body>
-  <div class="header">
-    <div class="title">
-      <img src="Logo.png" alt="Logo" />
-      Nicholas Walker
-    </div>
-    <nav class="navbar">
-      <a href="#hero" class="navbar-link">Home</a>
-      <a href="#about-me" class="navbar-link">About</a>
-      <a href="Walker.Nicholas.pdf" class="navbar-link">Resume</a>
-    </nav>
-  </div>
-
-  <section id="hero">
-    <div class="hero-content">
-      <h1>Nicholas Walker</h1>
-      <img src="PPP3.jpg" alt="Profile Picture" class="hero-image" />
-      <p>Aerospace and Mechanical Engineer</p>
-      <div class="social-links">
-        <a href="mailto:ndwalker8@gmail.com"><img src="Gmail_Logo.webp" alt="Gmail" /></a>
-        <a href="https://www.linkedin.com/in/nicholaswalker8"><img src="LinkedIn_Logo.png" alt="LinkedIn" /></a>
-      </div>
-
-      <div class="experience-grid">
-        <div class="experience-card">
-          <img src="GEV_emb.png" alt="GE Logo" />
-          <h3>General Electric</h3>
-          <p>Steampath Design</p>
-          <p>Spring 2024</p>
+    <div class="header">
+        <div class="title">
+            <img src="Logo.png" alt="Logo" style="height: 40px;">
+            Nicholas Walker
         </div>
-        <div class="experience-card">
-          <img src="RENSS.webp" alt="RPI Logo" />
-          <h3>RPI Research</h3>
-          <p>Damage Diagnostic</p>
-          <p>Fall 2023</p>
+        <nav class="navbar">
+            <a href="#hero" class="navbar-link">Home</a>
+            <a href="#about-me" class="navbar-link">About</a>
+            <a href="N V34.pdf" class="navbar-link">Resume</a>
+        </nav>
+    </div>
+
+    <section id="hero">
+        <div class="container"> 
+            <div class="hero-content">
+                <h1>Nicholas Walker</h1>
+                <img src="PPP3.jpg" alt="Profile Picture" class="hero-image">
+                <p>Aerospace and Mechanical Engineer</p>
+                <div class="social-links">
+                    <a href="mailto:ndwalker8@gmail.com"><img src="Gmail_Logo.webp" alt="Gmail"></a>
+                    <a href="https://www.linkedin.com/in/nicholaswalker8"><img src="LinkedIn_Logo.png" alt="LinkedIn"></a>
+                    <a href="#"><img src="facebook.png" alt="Facebook"></a>
+                </div>
+            </div>
+
+            <div class="experience-grid">
+                <div class="experience-card">
+                    <img src="GEV_emb.png" alt="GE Logo">
+                    <h3>General Electric</h3>
+                    <p>Steampath Design Intern</p>
+                    <p class="duration">Spring 2024</p>
+                </div>
+                <div class="experience-card">
+                    <img src="RENSS.webp" alt="RPI Logo">
+                    <h3>RPI Research</h3>
+                    <p>Damage Diagnostic</p>
+                    <p class="duration">Fall 2023</p>
+                </div>
+                <div class="experience-card">
+                    <img src="CCM.png" alt="CrossCountry Logo">
+                    <h3>Crosscountry LLC</h3>
+                    <p>Data Processing Intern</p>
+                    <p class="duration">Summer 2022</p>
+                </div>
+            </div>
         </div>
-        <div class="experience-card">
-          <img src="CCM.png" alt="CrossCountry Logo" />
-          <h3>CrossCountry LLC</h3>
-          <p>Data Processing Intern</p>
-          <p>Summer 2022</p>
+    </section>
+
+    <section id="projects">
+        <h2>Key Projects</h2>
+        <div class="projects-container">
+            <a href="Projects.pdf" target="_blank" class="project-item">
+                <img src="YD.png" alt="Yonka Rocket">
+                <h3>YONKA ROCKET</h3>
+                <p>Carbon Fiber rocket simulated in NASTRAN with analyses in NumPy and SciPy libraries in Python.</p>
+            </a>
+            <a href="Fil-A-Bot_Memo.docx.pdf" target="_blank" class="project-item">
+                <img src="3DF2.png" alt="SkyConvoy UH20 Aircraft Design">
+                <h3>FIL-A-BOT</h3>
+                <p>A sustainability project aimed at transforming recycled plastic bottles into 3D printing filament.</p>
+            </a>
+            <a href="Fin_Project.pdf" target="_blank" class="project-item">
+                <img src="FIN.png" alt="Static Rocket Motor Test Pad">
+                <h3>FIN-ARRAY</h3>
+                <p>Heat sink modeled in NX, and optimized to maximize thermal efficiency using convection principles.</p>
+            </a>
+            <a href="Final_Presentation-Albatross.pdf" target="_blank" class="project-item">
+                <img src="UAV.png" alt="Sounding Rocket Recovery System">
+                <h3>UAV DAMAGE STATE</h3>
+                <p>FEM damage diagnostic models for exploring structural health with respect to damage state parametrization.</p>
+            </a>
+            <a href="LineFollower.pdf" target="_blank" class="project-item">
+                <img src="LineF.png" alt="Line Follower">
+                <h3>LINE FOLLOWER</h3>
+                <p>Arduino PID control algorithms to maintain path position with sensors.</p>
+            </a>
+            <a href="LineFollower.pdf" target="_blank" class="project-item">
+                <img src="Drone.png" alt="Autonomous Drone">
+                <h3>AUTONOMOUS DRONE</h3>
+                <p>Autonomous flight modeling in C++ simulation environment control algorithms for real-time path planning.</p>
+            </a>
+            <a href="Orbiter.pdf" target="_blank" class="project-item">
+                <img src="Europa.png" alt="Europa Orbiter">
+                <h3>EUROPA ORBITER</h3>
+                <p>Europa mission design for multiple fly-bys and a lander to analyze its surface and search for life.</p>
+            </a>
         </div>
-      </div>
-    </div>
-  </section>
+    </section>
 
-  <section id="projects">
-    <h2>Key Projects</h2>
-    <div class="projects-container">
-      <a href="Projects.pdf" target="_blank" class="project-item">
-        <img src="YD.png" alt="Yonka Rocket" />
-        <h3>YONKA ROCKET</h3>
-        <p>Carbon fiber rocket simulated in NASTRAN with analyses in NumPy and SciPy.</p>
-      </a>
-      <a href="Fil-A-Bot_Memo.docx.pdf" target="_blank" class="project-item">
-        <img src="3DF2.png" alt="Fil-a-Bot" />
-        <h3>FIL-A-BOT</h3>
-        <p>Recycled plastic bottles into 3D printing filament sustainability project.</p>
-      </a>
-      <a href="Fin_Project.pdf" target="_blank" class="project-item">
-        <img src="FIN.png" alt="Fin Array" />
-        <h3>FIN ARRAY</h3>
-        <p>Heat sink modeled in NX, optimized for thermal efficiency.</p>
-      </a>
-      <a href="Final_Presentation-Albatross.pdf" target="_blank" class="project-item">
-        <img src="UAV.png" alt="UAV" />
-        <h3>UAV DAMAGE STATE</h3>
-        <p>FEM models for damage diagnostics and structural health monitoring.</p>
-      </a>
-      <a href="LineFollower.pdf" target="_blank" class="project-item">
-        <img src="LineF.png" alt="Line Follower" />
-        <h3>LINE FOLLOWER</h3>
-        <p>Arduino PID control for autonomous path navigation.</p>
-      </a>
-      <a href="LineFollower.pdf" target="_blank" class="project-item">
-        <img src="Drone.png" alt="Autonomous Drone" />
-        <h3>AUTONOMOUS DRONE</h3>
-        <p>C++ simulation for real-time autonomous flight control.</p>
-      </a>
-      <a href="Orbiter.pdf" target="_blank" class="project-item">
-        <img src="Europa.png" alt="Europa Orbiter" />
-        <h3>EUROPA ORBITER</h3>
-        <p>Mission design for Europa flybys and lander investigation.</p>
-      </a>
-    </div>
-  </section>
-
-  <section class="technical-skills-section">
-    <h2>Technical Skills</h2>
-    <div class="skills-box">
-      <img src="ansys-logo.png" alt="ANSYS" />
-      <img src="nx-logo.png" alt="Siemens NX" />
-      <img src="catia-logo.png" alt="CATIA" />
-      <img src="matl.png" alt="MATLAB" />
-      <img src="pyth.svg" alt="Python" />
-      <img src="c++.png" alt="C++" />
-    </div>
-  </section>
-
-  <section id="about-me">
-    <div class="about-me-container">
-      <div class="about-me-text">
-        <h2>About Me</h2>
-        <p>Welcome to my Engineering Portfolio. My name is Nicholas Walker, and I'm an Aerospace and Mechanical Engineer with a strong background in CAD simulations and coding.</p>
-        <p>I’m pursuing a B.S. in Aerospace and Mechanical Engineering at Rensselaer Polytechnic Institute (RPI), graduating May 2025, with a minor in Economics.</p>
-        <p>I’ve gained hands-on experience through my roles at General Electric, contributing to steam turbine bucket simulations, and conducting research at RPI focused on FEM/SEM damage diagnostics.</p>
-        <p>My work includes UAV diagnostics, heat sink design, and flight dynamics. I'm proficient in CATIA, ANSYS, Siemens NX, MATLAB, Python, and more.</p>
-        <p>Thanks for visiting my portfolio — I’m excited to contribute to future engineering advancements!</p>
-      </div>
-      <div class="about-me-image">
-        <img src="PRP.jpeg" alt="Profile Picture" />
-        <div class="about-me-details">
-          <h3>Dean's List</h3>
-          <p>Aerospace Systems Engineering with Economics</p>
-          <p>Rensselaer Polytechnic Institute</p>
-          <img src="RENS.jpg" alt="RPI LOGO" />
-          <div class="affiliations">
-            <img src="RRS.png" alt="Rensselaer Rocket Society" />
-            <img src="LXA.webp" alt="Lambda Chi Alpha" />
-            <img src="SFS.png" alt="Spaceflight Society" />
-          </div>
+    <section class="technical-skills-section">
+        <h2>Technical Skills</h2>
+        <div class="skills-box">
+            <img src="ansys-logo.png" alt="ANSYS">
+            <img src="nx-logo.png" alt="Siemens NX">
+            <img src="catia-logo.png" alt="CATIA">
+            <img src="matl.png" alt="MATLAB">
+            <img src="pyth.svg" alt="Python">
+            <img src="c++.png" alt="C++">
         </div>
-      </div>
-    </div>
-  </section>
+    </section>
 
-  <footer>
-    <p>&copy; 2024 Nicholas Walker</p>
-  </footer>
+    <section id="about-me">
+        <div class="about-me-container">
+            <div class="about-me-text">
+                <h2>About Me</h2>
+                <p>Welcome to my Engineering Portfolio. My name is Nicholas Walker, and I'm a Aerospace and Mechanical Engineer with a strong background in design involving CAD simulations and coding.</p>
+                <p>I am currently pursuing a Bachelor of Science in Aerospace and Mechanical Engineering at Rensselaer Polytechnic Institute (RPI) and an expected graduation in May 2025. Alongside my major, I have also pursued a minor in Economics, allowing me to approach engineering challenges with a broader perspective.</p>
+                <p>Throughout my academic career, I have gained hands-on experience in various fields of aerospace and mechanical engineering, particularly through my roles as a Steampath Design Intern at GE Vernova, where I contributed to full-scale steam turbine bucket layout simulations. Additionally, I have conducted research on structural damage diagnostics as an undergraduate researcher at RPI, focusing on FEM/SEM damage diagnostic techniques.</p>
+                <p>I'm driven by a deep interest in innovation and technology, which is evident in my projects ranging from the design and analysis of vertical fin arrays for heat sinks to the development of UAV structural diagnostics. My technical skills span across various tools and software, including CATIA, ANSYS, Siemens NX, MATLAB, Python, and more</p>
+                <p>Thank you for taking the time to learn about me. I can't wait to apply what I've learned throughout my career and follow my passion in driving the engineering field!</p>
+            </div>
+            <div class="about-me-image">
+                <img src="PRP.jpeg" alt="Profile Picture" style="max-width: 180px;">
+                <div class="about-me-details">
+                    <h3>Dean's List</h3>
+                    <p>Aerospace Systems Engineering with Economics</p>
+                    <p>Rensselaer Polytechnic Institute</p>
+                    <img src="RENS.jpg" alt="RPI LOGO" style="max-width: 100px;">
+                    <div class="affiliations">
+                        <img src="RRS.png" alt="Rensselaer Rocket Society">
+                        <img src="LXA.webp" alt="Lambda Chi Alpha">
+                        <img src="SFS.png" alt="Spaceflight Society">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Nicholas Walker</p>
+    </footer>
 </body>
 </html>
