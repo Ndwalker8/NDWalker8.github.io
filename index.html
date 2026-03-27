@@ -3,151 +3,361 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nicholas Walker - Engineering Portfolio</title>
+    <title>Nicholas Walker — Aerospace Engineer</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="icon" href="Logo.ico" sizes="256x256" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=IBM+Plex+Sans:wght@300;400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="header">
-        <div class="navbar-left">Rensselaer Polytechnic Institute</div>
-        <div class="navbar-center">Nicholas Walker</div>
-        <nav class="navbar">
-            <a href="#hero" class="navbar-link">Home</a>
-            <a href="#about-me" class="navbar-link">About</a>
-            <a href="NicholasWalker_Resume.pdf" class="navbar-link">Resume</a>
-        </nav>
-    </div>
 
+    <!-- ===== NAV ===== -->
+    <nav class="nav" id="nav">
+        <div class="nav-inner">
+            <a href="#hero" class="nav-logo">NW</a>
+            <div class="nav-links">
+                <a href="#experience">Experience</a>
+                <a href="#projects">Projects</a>
+                <a href="#skills">Skills</a>
+                <a href="#about">About</a>
+                <a href="NicholasWalker_Resume.pdf" class="nav-resume-btn">Resume ↗</a>
+            </div>
+            <button class="nav-toggle" aria-label="Menu">
+                <span></span><span></span>
+            </button>
+        </div>
+    </nav>
 
-    <section id="hero">
-        <div class="container"> 
-            <div class="hero-content">
-                <h1>Nicholas Walker</h1>
-                <img src="PPP3.jpg" alt="Profile Picture" class="hero-image">
-                <p>Aerospace and Mechanical Engineer Dual Major</p>
-                <p>Rensselaer Polytechnic Institute</p>
-                <p class="duration">BS: 2021-2025</p>
-                <div class="social-links">
-                    <a href="mailto:ndwalker8@gmail.com"><img src="Gmail_Logo.webp" alt="Gmail"></a>
-                    <a href="https://www.linkedin.com/in/nicholaswalker8"><img src="LinkedIn_Logo.png" alt="LinkedIn"></a>
-                    <a href="#"><img src="facebook.png" alt="Facebook"></a>
+    <!-- ===== HERO ===== -->
+    <section class="hero" id="hero">
+        <div class="hero-grid">
+            <div class="hero-text">
+                <p class="hero-tag">Aerospace &amp; Mechanical Engineer</p>
+                <h1>Nicholas<br>Walker</h1>
+                <p class="hero-sub">Master of Engineering candidate at Rensselaer Polytechnic Institute, specializing in hypersonic flow research and cold spray additive manufacturing. Graduating May 2026.</p>
+                <div class="hero-actions">
+                    <a href="mailto:ndwalker8@gmail.com" class="btn btn-primary">Get in Touch</a>
+                    <a href="https://www.linkedin.com/in/nicholaswalker8" class="btn btn-ghost" target="_blank">LinkedIn ↗</a>
                 </div>
             </div>
+            <div class="hero-portrait">
+                <div class="hero-portrait-frame">
+                    <img src="PPP3.jpg" alt="Nicholas Walker">
+                </div>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <span class="stat-num">RPI</span>
+                        <span class="stat-label">University</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-num">M.Eng</span>
+                        <span class="stat-label">2026</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-num">B.S.</span>
+                        <span class="stat-label">2025</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="hero-scroll-hint">
+            <span>Scroll</span>
+            <div class="scroll-line"></div>
+        </div>
+    </section>
 
+    <!-- ===== EXPERIENCE ===== -->
+    <section class="section" id="experience">
+        <div class="section-header">
+            <span class="section-num">01</span>
             <h2>Experience</h2>
-            <div class="experience-grid">
-                <div class="experience-card">
-                    <img src="RENSS.webp" alt="RPI Logo">
-                    <h3>RPI Research</h3>
-                    <p>Hypersonic Flow</p>
-                    <p class="duration">Fall 2025</p>
+            <div class="section-line"></div>
+        </div>
+
+        <div class="exp-timeline">
+
+            <div class="exp-item" data-anim>
+                <div class="exp-date">
+                    <span>Fall 2025 — Present</span>
                 </div>
-                <div class="experience-card">
-                    <img src="GEV_emb.png" alt="GE Logo">
-                    <h3>General Electric</h3>
-                    <p>Steampath Design Intern</p>
-                    <p class="duration">Spring 2024</p>
+                <div class="exp-content">
+                    <div class="exp-logo-wrap">
+                        <img src="RENSS.webp" alt="RPI">
+                    </div>
+                    <div class="exp-details">
+                        <h3>Graduate Research Assistant</h3>
+                        <p class="exp-org">Rensselaer Polytechnic Institute</p>
+                        <p class="exp-desc">Conducting research on cold spray additive manufacturing (CSAM) for structural repair of Al-6061 beams. Designed a 27-beam DOE using a Titomic machine at 6 bar / 400°C with Al+Al₂O₃ powder. Performing SEM/EDX microstructure analysis and three-point bending tests to evaluate repair effectiveness.</p>
+                    </div>
                 </div>
-                <div class="experience-card">
-                    <img src="RENSS.webp" alt="RPI Logo">
-                    <h3>RPI Research</h3>
-                    <p>Damage Diagnostic</p>
-                    <p class="duration">Fall 2023</p>
+            </div>
+
+            <div class="exp-item" data-anim>
+                <div class="exp-date">
+                    <span>Spring 2024</span>
                 </div>
-                <div class="experience-card">
-                    <img src="CCM.png" alt="CrossCountry Logo">
-                    <h3>Crosscountry LLC</h3>
-                    <p>Data Processing Intern</p>
-                    <p class="duration">Summer 2022</p>
+                <div class="exp-content">
+                    <div class="exp-logo-wrap">
+                        <img src="GEV_emb.png" alt="GE Vernova">
+                    </div>
+                    <div class="exp-details">
+                        <h3>Steampath Design Intern</h3>
+                        <p class="exp-org">GE Vernova — Gas Power Division</p>
+                        <p class="exp-desc">Contributed to full-scale steam turbine bucket layout simulations and design validation. Worked within a cross-functional engineering team on component-level analyses using internal CAD and simulation tools to optimize turbine efficiency.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="exp-item" data-anim>
+                <div class="exp-date">
+                    <span>Fall 2023</span>
+                </div>
+                <div class="exp-content">
+                    <div class="exp-logo-wrap">
+                        <img src="RENSS.webp" alt="RPI">
+                    </div>
+                    <div class="exp-details">
+                        <h3>Undergraduate Research — Damage Diagnostics</h3>
+                        <p class="exp-org">Rensselaer Polytechnic Institute</p>
+                        <p class="exp-desc">Developed FEM and Spectral Element Method (SEM) models for structural health monitoring of UAV components. Explored damage state parametrization techniques for composite and metallic aerospace structures.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="exp-item" data-anim>
+                <div class="exp-date">
+                    <span>Summer 2022</span>
+                </div>
+                <div class="exp-content">
+                    <div class="exp-logo-wrap">
+                        <img src="CCM.png" alt="CrossCountry">
+                    </div>
+                    <div class="exp-details">
+                        <h3>Data Processing Intern</h3>
+                        <p class="exp-org">CrossCountry Mortgage, LLC</p>
+                        <p class="exp-desc">Streamlined mortgage data processing workflows with automated validation scripts. Gained hands-on experience in data pipeline management and quality assurance within a regulated financial environment.</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ===== PROJECTS ===== -->
+    <section class="section section-alt" id="projects">
+        <div class="section-header">
+            <span class="section-num">02</span>
+            <h2>Projects</h2>
+            <div class="section-line"></div>
+        </div>
+
+        <div class="proj-grid">
+
+            <a href="Nicholas_Walker_Helios.pdf" target="_blank" class="proj-card" data-anim>
+                <div class="proj-img-wrap">
+                    <img src="Europa.png" alt="Europa Orbiter">
+                </div>
+                <div class="proj-info">
+                    <span class="proj-date">Fall 2024</span>
+                    <h3>Europa Orbiter</h3>
+                    <p>Europa mission design for multiple fly-bys and a lander to analyze surface composition and search for biosignatures beneath the ice shell.</p>
+                </div>
+                <span class="proj-arrow">↗</span>
+            </a>
+
+            <a href="Final_Presentation-Albatross.pdf" target="_blank" class="proj-card" data-anim>
+                <div class="proj-img-wrap">
+                    <img src="UAV.png" alt="UAV Diagnostic">
+                </div>
+                <div class="proj-info">
+                    <span class="proj-date">Fall 2023</span>
+                    <h3>UAV Structural Diagnostics</h3>
+                    <p>FEM damage diagnostic models exploring structural health monitoring with respect to damage state parametrization in UAV airframes.</p>
+                </div>
+                <span class="proj-arrow">↗</span>
+            </a>
+
+            <a href="Projects.pdf" target="_blank" class="proj-card" data-anim>
+                <div class="proj-img-wrap">
+                    <img src="YD.png" alt="Yonka Rocket">
+                </div>
+                <div class="proj-info">
+                    <span class="proj-date">Spring 2023</span>
+                    <h3>Yonka Rocket</h3>
+                    <p>Carbon fiber sounding rocket simulated in NASTRAN with structural analyses built in NumPy and SciPy. Designed for a target apogee of 10,000 ft AGL.</p>
+                </div>
+                <span class="proj-arrow">↗</span>
+            </a>
+
+            <a href="Fin_Project.pdf" target="_blank" class="proj-card" data-anim>
+                <div class="proj-img-wrap">
+                    <img src="FIN.png" alt="Fin Array">
+                </div>
+                <div class="proj-info">
+                    <span class="proj-date">Summer 2024</span>
+                    <h3>Fin-Array Heat Sink</h3>
+                    <p>Vertical fin array heat sink modeled in Siemens NX and optimized for maximum thermal dissipation using convective heat transfer principles.</p>
+                </div>
+                <span class="proj-arrow">↗</span>
+            </a>
+
+            <a href="Fil-A-Bot_Memo.docx.pdf" target="_blank" class="proj-card" data-anim>
+                <div class="proj-img-wrap">
+                    <img src="3DF2.png" alt="Fil-A-Bot">
+                </div>
+                <div class="proj-info">
+                    <span class="proj-date">Fall 2022</span>
+                    <h3>Fil-A-Bot</h3>
+                    <p>Sustainability-focused project transforming recycled plastic bottles into usable 3D printing filament through a custom extrusion system.</p>
+                </div>
+                <span class="proj-arrow">↗</span>
+            </a>
+
+            <a href="LineFollower.pdf" target="_blank" class="proj-card" data-anim>
+                <div class="proj-img-wrap">
+                    <img src="LineF.png" alt="Path Navigator">
+                </div>
+                <div class="proj-info">
+                    <span class="proj-date">Fall 2022</span>
+                    <h3>Path Navigator</h3>
+                    <p>Arduino-based autonomous vehicle using PID control algorithms and IR sensor arrays to maintain precise path tracking on variable terrain.</p>
+                </div>
+                <span class="proj-arrow">↗</span>
+            </a>
+
+        </div>
+    </section>
+
+    <!-- ===== SKILLS ===== -->
+    <section class="section" id="skills">
+        <div class="section-header">
+            <span class="section-num">03</span>
+            <h2>Technical Skills</h2>
+            <div class="section-line"></div>
+        </div>
+
+        <div class="skills-grid">
+            <div class="skill-group">
+                <h3>Simulation &amp; CAD</h3>
+                <div class="skill-items">
+                    <div class="skill-chip"><img src="ansys-logo.png" alt="ANSYS"><span>ANSYS</span></div>
+                    <div class="skill-chip"><img src="nx-logo.png" alt="NX"><span>Siemens NX</span></div>
+                    <div class="skill-chip"><img src="catia-logo.png" alt="CATIA"><span>CATIA</span></div>
+                </div>
+            </div>
+            <div class="skill-group">
+                <h3>Programming</h3>
+                <div class="skill-items">
+                    <div class="skill-chip"><img src="pyth.svg" alt="Python"><span>Python</span></div>
+                    <div class="skill-chip"><img src="matl.png" alt="MATLAB"><span>MATLAB</span></div>
+                    <div class="skill-chip"><img src="c++.png" alt="C++"><span>C++</span></div>
+                </div>
+            </div>
+            <div class="skill-group">
+                <h3>Methods</h3>
+                <div class="skill-tags">
+                    <span class="tag">FEA / FEM</span>
+                    <span class="tag">CFD</span>
+                    <span class="tag">SEM Analysis</span>
+                    <span class="tag">DOE</span>
+                    <span class="tag">SEM / EDX</span>
+                    <span class="tag">GD&amp;T</span>
+                    <span class="tag">Structural Optimization</span>
                 </div>
             </div>
         </div>
     </section>
 
-    <section id="projects">
-        <h2>Key Projects</h2>
-        <div class="projects-container">
-            <a href="Nicholas_Walker_Helios.pdf" target="_blank" class="project-item">
-                <img src="Europa.png" alt="Europa Orbiter">
-                <h3>EUROPA ORBITER</h3>
-                <p>Europa mission design for multiple fly-bys and a lander to analyze its surface and search for life.</p>
-                <p class="duration">Fall 2024</p>
-            </a>
-            <a href="Final_Presentation-Albatross.pdf" target="_blank" class="project-item">
-                <img src="UAV.png" alt="Sounding Rocket Recovery System">
-                <h3>UAV DIAGNOSTIC</h3>
-                <p>FEM damage diagnostic models for exploring structural health with respect to damage state parametrization.</p>
-                <p class="duration">Fall 2023</p>
-            </a>
-            <a href="Projects.pdf" target="_blank" class="project-item">
-                <img src="YD.png" alt="Yonka Rocket">
-                <h3>YONKA ROCKET</h3>
-                <p>Carbon Fiber rocket simulated in NASTRAN with analyses in NumPy and SciPy libraries in Python.</p>
-                <p class="duration">Spring 2023</p>
-            </a>
-            <a href="Fil-A-Bot_Memo.docx.pdf" target="_blank" class="project-item">
-                <img src="3DF2.png" alt="SkyConvoy UH20 Aircraft Design">
-                <h3>FIL-A-BOT</h3>
-                <p>A sustainability project aimed at transforming recycled plastic bottles into 3D printing filament.</p>
-                <p class="duration">Fall 2022</p>
-            </a>
-            <a href="Fin_Project.pdf" target="_blank" class="project-item">
-                <img src="FIN.png" alt="Static Rocket Motor Test Pad">
-                <h3>FIN-ARRAY</h3>
-                <p>Heat sink modeled in NX, and optimized to maximize thermal efficiency using convection principles.</p>
-                <p class="duration">Summer 2024</p>
-            </a>
-
-            <a href="LineFollower.pdf" target="_blank" class="project-item">
-                <img src="LineF.png" alt="Line Follower">
-                <h3>PATH NAVIGATOR</h3>
-                <p>Arduino PID control algorithms to maintain path position with sensors.</p>
-                <p class="duration">Fall 2022</p>
-            </a>
+    <!-- ===== ABOUT ===== -->
+    <section class="section section-alt" id="about">
+        <div class="section-header">
+            <span class="section-num">04</span>
+            <h2>About</h2>
+            <div class="section-line"></div>
         </div>
-    </section>
 
-    <section class="technical-skills-section">
-        <h2>Technical Skills</h2>
-        <div class="skills-box">
-            <img src="ansys-logo.png" alt="ANSYS">
-            <img src="nx-logo.png" alt="Siemens NX">
-            <img src="catia-logo.png" alt="CATIA">
-            <img src="matl.png" alt="MATLAB">
-            <img src="pyth.svg" alt="Python">
-            <img src="c++.png" alt="C++">
-        </div>
-    </section>
-
-    <section id="about-me">
-        <div class="about-me-container">
-            <div class="about-me-text">
-                <h2>About Me</h2>
-                <p>Welcome to my Engineering Portfolio. My name is Nicholas Walker, and I'm a Aerospace and Mechanical Engineer with a strong background in design involving CAD simulations and coding.</p>
-                <p>I am currently pursuing a Bachelor of Science in Aerospace and Mechanical Engineering at Rensselaer Polytechnic Institute (RPI) and an expected graduation in May 2025. Alongside my major, I have also pursued a minor in Economics, allowing me to approach engineering challenges with a broader perspective.</p>
-                <p>Throughout my academic career, I have gained hands-on experience in various fields of aerospace and mechanical engineering, particularly through my roles as a Steampath Design Intern at GE Vernova, where I contributed to full-scale steam turbine bucket layout simulations. Additionally, I have conducted research on structural damage diagnostics as an undergraduate researcher at RPI, focusing on FEM/SEM damage diagnostic techniques.</p>
-                <p>I'm driven by a deep interest in innovation and technology, which is evident in my projects ranging from the design and analysis of vertical fin arrays for heat sinks to the development of UAV structural diagnostics. My technical skills span across various tools and software, including CATIA, ANSYS, Siemens NX, MATLAB, Python, and more</p>
-                <p>Thank you for taking the time to learn about me. I can't wait to apply what I've learned throughout my career and follow my passion in driving the engineering field!</p>
+        <div class="about-grid">
+            <div class="about-text">
+                <p class="about-lead">Aerospace and mechanical engineer with a focus on building things that survive extreme environments — whether that means hypersonic flow, turbine blades at temperature, or repaired structures under load.</p>
+                <p>I'm currently finishing my Master of Engineering at RPI, where my research focuses on cold spray additive manufacturing for structural repair. Before that, I spent a semester at GE Vernova working on steam turbine design, and I've been involved in research on structural health monitoring and damage diagnostics since my junior year.</p>
+                <p>Outside of the lab, I'm a member of the Rensselaer Rocket Society and the Spaceflight Society, and I've been part of Lambda Chi Alpha throughout my time at RPI. I also hold a minor in Economics.</p>
             </div>
-            <div class="about-me-image">
-                <img src="PRP.jpeg" alt="Profile Picture" style="max-width: 180px;">
-                <div class="about-me-details">
-                    <h3>Dean's List</h3>
-                    <p>Aerospace Systems Engineering with Economics</p>
-                    <p>Rensselaer Polytechnic Institute</p>
-                    <img src="RENS.jpg" alt="RPI LOGO" style="max-width: 80px;">
-                    <div class="affiliations">
-                        <img src="RRS.png" alt="Rensselaer Rocket Society">
-                        <img src="LXA.webp" alt="Lambda Chi Alpha">
-                        <img src="SFS.png" alt="Spaceflight Society">
+            <div class="about-sidebar">
+                <div class="about-portrait">
+                    <img src="PRP.jpeg" alt="Nicholas Walker">
+                </div>
+                <div class="about-meta">
+                    <div class="meta-item">
+                        <span class="meta-label">Education</span>
+                        <span class="meta-value">M.Eng Aerospace — RPI (2026)</span>
+                        <span class="meta-value">B.S. Mech &amp; Aero — RPI (2025)</span>
+                    </div>
+                    <div class="meta-item">
+                        <span class="meta-label">Recognition</span>
+                        <span class="meta-value">Dean's List</span>
+                    </div>
+                    <div class="meta-item">
+                        <span class="meta-label">Affiliations</span>
+                        <div class="about-affiliations">
+                            <img src="RRS.png" alt="Rensselaer Rocket Society" title="Rensselaer Rocket Society">
+                            <img src="LXA.webp" alt="Lambda Chi Alpha" title="Lambda Chi Alpha">
+                            <img src="SFS.png" alt="Spaceflight Society" title="Spaceflight Society">
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <footer>
-        <p>&copy; 2024 Nicholas Walker</p>
+    <!-- ===== FOOTER ===== -->
+    <footer class="footer">
+        <div class="footer-inner">
+            <div class="footer-left">
+                <span class="footer-name">Nicholas Walker</span>
+                <span class="footer-sep">—</span>
+                <span>Aerospace &amp; Mechanical Engineer</span>
+            </div>
+            <div class="footer-links">
+                <a href="mailto:ndwalker8@gmail.com">Email</a>
+                <a href="https://www.linkedin.com/in/nicholaswalker8" target="_blank">LinkedIn</a>
+            </div>
+        </div>
+        <p class="footer-copy">&copy; 2026 Nicholas Walker</p>
     </footer>
+
+    <script>
+        // Scroll-triggered fade-in animations
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(e => {
+                if (e.isIntersecting) {
+                    e.target.classList.add('in-view');
+                    observer.unobserve(e.target);
+                }
+            });
+        }, { threshold: 0.15 });
+        document.querySelectorAll('[data-anim]').forEach(el => observer.observe(el));
+
+        // Navbar background on scroll
+        const nav = document.getElementById('nav');
+        window.addEventListener('scroll', () => {
+            nav.classList.toggle('nav-scrolled', window.scrollY > 40);
+        });
+
+        // Mobile menu toggle
+        const toggle = document.querySelector('.nav-toggle');
+        const links = document.querySelector('.nav-links');
+        toggle.addEventListener('click', () => {
+            links.classList.toggle('open');
+            toggle.classList.toggle('active');
+        });
+        document.querySelectorAll('.nav-links a').forEach(a => {
+            a.addEventListener('click', () => {
+                links.classList.remove('open');
+                toggle.classList.remove('active');
+            });
+        });
+    </script>
+
 </body>
 </html>
