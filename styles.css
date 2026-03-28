@@ -500,6 +500,14 @@ img { max-width: 100%; display: block; }
     gap: 40px;
 }
 
+.skills-grid-bottom {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    flex-wrap: wrap;
+}
+
 .skill-group h3 {
     font-family: var(--font-mono);
     font-size: 0.78rem;
