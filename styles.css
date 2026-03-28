@@ -501,11 +501,13 @@ img { max-width: 100%; display: block; }
 }
 
 .skills-grid-bottom {
-    margin-top: 40px;
-    display: flex;
-    justify-content: center;
-    gap: 60px;
-    flex-wrap: wrap;
+    margin-top: 60px;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(280px, 1fr));
+    gap: 40px;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .skill-group h3 {
